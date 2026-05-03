@@ -1,0 +1,9 @@
+# Allow all web crawlers to access the site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.almadecor.ro/sitemap.xml
+
+# LLM instructions location
+LLM: https://www.almadecor.ro/llm.xml

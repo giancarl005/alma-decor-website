@@ -1,0 +1,2753 @@
+<!DOCTYPE html>
+
+<html lang="ro-ro">
+
+	<head>
+		<meta charset="UTF-8">
+
+		<script src="https://gomagcdn.ro/themes/fashion/js/lazysizes.min.js?v=101181346-4.271" async=""></script>
+
+		<script>
+			function g_js(callbk){typeof callbk === 'function' ? window.addEventListener("DOMContentLoaded", callbk, false) : false;}
+		</script>
+
+					<link rel="icon" sizes="48x48" href="https://gomagcdn.ro/domains/verdeco.ro/files/favicon/favicon.png?v=1544760529">
+			<link rel="apple-touch-icon" sizes="57x57" href="https://gomagcdn.ro/domains/verdeco.ro/files/favicon/favicon.png?v=1544760529">
+		
+		<style>
+
+			
+			/*body.loading{overflow:hidden;}
+			body.loading #wrapper{opacity: 0;visibility: hidden;}
+			body #wrapper{opacity: 1;visibility: visible;transition:all .1s ease-out;}*/
+
+			.main-header .main-menu{min-height:43px;}
+			.-g-hide{visibility:hidden;opacity:0;}
+
+					</style>
+					<link rel="preconnect" href="https://fonts.googleapis.com" >
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		
+		<link rel="preconnect" href="https://gomagcdn.ro"><link rel="dns-prefetch" href="https://fonts.googleapis.com" /><link rel="dns-prefetch" href="https://fonts.gstatic.com" /><link rel="dns-prefetch" href="https://www.facebook.com" /><link rel="dns-prefetch" href="https://www.googletagmanager.com" /><link rel="dns-prefetch" href="https://embed.tawk.to" />
+
+					<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" fetchpriority="high" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
+		
+		<link rel="preload" href="https://gomagcdn.ro/themes/fashion/js/plugins.js?v=101181346-4.271" as="script">
+
+					<link rel="preload" href="https://gomagcdn.ro/domains/verdeco.ro/themes/fashion/js/custom.js?1756385724" as="script">
+		
+					<link rel="preload" href="https://www.verdeco.ro/theme/default.js?v=41772399862" as="script">
+				
+		<link rel="preload" href="https://gomagcdn.ro/themes/fashion/js/dev.js?v=101181346-4.271" as="script">
+
+					<noscript>
+				<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+			</noscript>
+		
+																<link rel="stylesheet" href="https://gomagcdn.ro/themes/fashion/css/main-min-v2.css?v=101181346-4.271-1" data-values='{"blockScripts": "1"}'>
+		
+		<link rel="stylesheet" href="https://www.verdeco.ro/theme/default.css?v=41772399862">
+
+												<link rel="stylesheet" href="https://gomagcdn.ro/domains/verdeco.ro/themes/fashion/css/custom.css?1756385724">
+														<link rel="stylesheet" href="https://gomagcdn.ro/themes/fashion/css/dev-style.css?v=101181346-4.271-1">
+						
+		
+		<link rel="alternate" hreflang="x-default" href="https://www.verdeco.ro/404.shtml">
+									<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59516032-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-59516032-1');
+  gtag('config', 'AW-1019096781');
+</script>					
+		<meta name="expires" content="never">
+		<meta name="revisit-after" content="1 days">
+					<meta name="author" content="Gomag">
+				<title>Pagina nu a fost gasita - 404 - Verdeco.ro</title>
+
+
+					<meta name="robots" content="noindex, nofollow">
+						
+		<meta name="description" content="Pagina pe care o cauti nu a fost gasita - 404. Cauta in continuare sau revino pe prima pagina a siteului Verdeco.ro:">
+		<meta class="viewport" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+									<meta property="og:image" content="https://www.verdeco.ro/domains/verdeco.ro/files/company/logo24001679.png"/>
+																
+		<meta name="distribution" content="Global">
+		<meta name="owner" content="www.verdeco.ro">
+		<meta name="publisher" content="www.verdeco.ro">
+		<meta name="rating" content="General">
+		<meta name="copyright" content="Copyright www.verdeco.ro 2026. All rights reserved">
+		<link rel="search" href="https://www.verdeco.ro/opensearch.ro.xml" type="application/opensearchdescription+xml" title="Cautare"/>
+
+		
+							<script src="https://gomagcdn.ro/themes/fashion/js/jquery-2.1.4.min.js"></script>
+			<script defer src="https://gomagcdn.ro/themes/fashion/js/jquery.autocomplete.js?v=20181023"></script>
+			<script src="https://gomagcdn.ro/themes/fashion/js/gomag.config.js?v=101181346-4.271"></script>
+			<script src="https://gomagcdn.ro/themes/fashion/js/gomag.js?v=101181346-4.271"></script>
+		
+													<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=363610726"></script>
+	<script>
+ window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+    var cookieValue = '';
+  var name = 'g_c_consent' + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+	var c = ca[i];
+	while (c.charAt(0) == ' ') {
+	  c = c.substring(1);
+	}
+	if (c.indexOf(name) == 0) {
+	  cookieValue = c.substring(name.length, c.length);
+	}
+  }
+
+
+
+if(cookieValue == ''){
+	gtag('consent', 'default', {
+	  'ad_storage': 'granted',
+	  'ad_user_data': 'granted',
+	  'ad_personalization': 'granted',
+	  'analytics_storage': 'granted',
+	  'personalization_storage': 'granted',
+	  'functionality_storage': 'granted',
+	  'security_storage': 'granted'
+	});
+	} else if(cookieValue != '-1'){
+
+
+			gtag('consent', 'default', {
+			'ad_storage': 'granted',
+			'ad_user_data': 'granted',
+			'ad_personalization': 'granted',
+			'analytics_storage': 'granted',
+			'personalization_storage': 'granted',
+			'functionality_storage': 'granted',
+			'security_storage': 'granted'
+		});
+	} else {
+	 gtag('consent', 'default', {
+		  'ad_storage': 'denied',
+		  'ad_user_data': 'denied',
+		  'ad_personalization': 'denied',
+		  'analytics_storage': 'denied',
+			'personalization_storage': 'denied',
+			'functionality_storage': 'denied',
+			'security_storage': 'denied'
+		});
+
+		 }
+</script>
+<script>
+
+	
+  gtag('js', new Date());
+
+ 
+$.Gomag.bind('Cookie/Policy/Consent/Denied', function(){
+	gtag('consent', 'update', {
+		  'ad_storage': 'denied',
+		  'ad_user_data': 'denied',
+		  'ad_personalization': 'denied',
+		  'analytics_storage': 'denied',
+			'personalization_storage': 'denied',
+			'functionality_storage': 'denied',
+			'security_storage': 'denied'
+		});
+		})
+$.Gomag.bind('Cookie/Policy/Consent/Granted', function(){
+	gtag('consent', 'update', {
+		  'ad_storage': 'granted',
+		  'ad_user_data': 'granted',
+		  'ad_personalization': 'granted',
+		  'analytics_storage': 'granted',
+			'personalization_storage': 'granted',
+			'functionality_storage': 'granted',
+			'security_storage': 'granted'
+		});
+		})
+  gtag('config', '363610726', {allow_enhanced_conversions: true });
+</script>
+<script>
+	function gaBuildProductVariant(product)
+	{
+		let _return = '';
+		if(product.version != undefined)
+		{
+			$.each(product.version, function(i, a){
+				_return += (_return == '' ? '' : ', ')+a.value;
+			})
+		}
+		return _return;
+	}
+
+</script>
+ 
+<script>
+	$.Gomag.bind('Product/Add/To/Cart/After/Listing', function gaProductAddToCartLV4(event, data) {
+		if(data.product !== undefined) {
+			var gaProduct = false;
+			if(typeof(gaProducts) != 'undefined' && gaProducts[data.product.id] != undefined)
+			{
+				gaProduct = gaProducts[data.product.id];
+
+			}
+
+			if(gaProduct == false)
+			{
+				gaProduct = {};
+				gaProduct.item_id = data.product.id;
+				gaProduct.currency = data.product.currency ? (String(data.product.currency).toLowerCase() == 'lei' ? 'RON' : data.product.currency) : 'RON';
+				gaProduct.item_name =  data.product.sku ;
+				gaProduct.item_variant= gaBuildProductVariant(data.product);
+				gaProduct.item_brand = data.product.brand;
+				gaProduct.item_category = data.product.category;
+
+			}
+
+			gaProduct.price = parseFloat(data.product.price).toFixed(2);
+			gaProduct.quantity = data.product.productQuantity;
+			gtag("event", "add_to_cart", {
+				currency: gaProduct.currency,
+				value: parseFloat(gaProduct.price) * parseFloat(gaProduct.quantity),
+				items: [
+					gaProduct
+				]
+			});
+
+		}
+	})
+	$.Gomag.bind('Product/Add/To/Cart/After/Details', function gaProductAddToCartDV4(event, data){
+
+		if(data.product !== undefined){
+
+			var gaProduct = false;
+			if(
+				typeof(gaProducts) != 'undefined'
+				&&
+				gaProducts[data.product.id] != undefined
+			)
+			{
+				var gaProduct = gaProducts[data.product.id];
+			}
+
+			if(gaProduct == false)
+			{
+				gaProduct = {};
+				gaProduct.item_id = data.product.id;
+				gaProduct.currency = data.product.currency ? (String(data.product.currency).toLowerCase() == 'lei' ? 'RON' : data.product.currency) : 'RON';
+				gaProduct.item_name =  data.product.sku ;
+				gaProduct.item_variant= gaBuildProductVariant(data.product);
+				gaProduct.item_brand = data.product.brand;
+				gaProduct.item_category = data.product.category;
+
+			}
+
+			gaProduct.price = parseFloat(data.product.price).toFixed(2);
+			gaProduct.quantity = data.product.productQuantity;
+
+
+			gtag("event", "add_to_cart", {
+			  currency: gaProduct.currency,
+			  value: parseFloat(gaProduct.price) * parseFloat(gaProduct.quantity),
+			  items: [
+				gaProduct
+			  ]
+			});
+        }
+
+	})
+	 $.Gomag.bind('Product/Remove/From/Cart', function gaProductRemovedFromCartV4(event, data){
+		var envData = $.Gomag.getEnvData();
+		var products = envData.products;
+
+		if(data.data.product !== undefined && products[data.data.product] !== undefined){
+
+
+			var dataProduct = products[data.data.product];
+
+
+			gaProduct = {};
+			gaProduct.item_id = dataProduct.id;
+
+			gaProduct.item_name =   dataProduct.sku ;
+			gaProduct.currency = dataProduct.currency ? (String(dataProduct.currency).toLowerCase() == 'lei' ? 'RON' : dataProduct.currency) : 'RON';
+			gaProduct.item_category = dataProduct.category;
+			gaProduct.item_brand = dataProduct.brand;
+			gaProduct.price = parseFloat(dataProduct.price).toFixed(2);
+			gaProduct.quantity = data.data.quantity;
+			gaProduct.item_variant= gaBuildProductVariant(dataProduct);
+			gtag("event", "remove_from_cart", {
+			  currency: gaProduct.currency,
+			  value: parseFloat(gaProduct.price) * parseFloat(gaProduct.quantity),
+			  items: [
+				gaProduct
+			  ]
+			});
+        }
+
+	});
+
+	 $.Gomag.bind('Cart/Quantity/Update', function gaCartQuantityUpdateV4(event, data){
+		var envData = $.Gomag.getEnvData();
+		var products = envData.products;
+		if(!data.data.finalQuantity || !data.data.initialQuantity)
+		{
+			return false;
+		}
+		var dataProduct = products[data.data.product];
+		if(dataProduct == undefined)
+		{
+			return false;
+		}
+
+		gaProduct = {};
+		gaProduct.item_id = dataProduct.id;
+		gaProduct.currency = dataProduct.currency ? (String(dataProduct.currency).toLowerCase() == 'lei' ? 'RON' : dataProduct.currency) : 'RON';
+		gaProduct.item_name =  dataProduct.sku ;
+
+		gaProduct.item_category = dataProduct.category;
+		gaProduct.item_brand = dataProduct.brand;
+		gaProduct.price = parseFloat(dataProduct.price).toFixed(2);
+		gaProduct.item_variant= gaBuildProductVariant(dataProduct);
+		if(parseFloat(data.data.initialQuantity) < parseFloat(data.data.finalQuantity))
+		{
+			var quantity = parseFloat(data.data.finalQuantity) - parseFloat(data.data.initialQuantity);
+			gaProduct.quantity = quantity;
+
+			gtag("event", "add_to_cart", {
+			  currency: gaProduct.currency,
+			  value: parseFloat(gaProduct.price) * parseFloat(gaProduct.quantity),
+			  items: [
+				gaProduct
+			  ]
+			});
+		}
+		else if(parseFloat(data.data.initialQuantity) > parseFloat(data.data.finalQuantity))
+		{
+			var quantity = parseFloat(data.data.initialQuantity) - parseFloat(data.data.finalQuantity);
+			gaProduct.quantity = quantity;
+			gtag("event", "remove_from_cart", {
+			  currency: gaProduct.currency,
+			  value: parseFloat(gaProduct.price) * parseFloat(gaProduct.quantity),
+			  items: [
+				gaProduct
+			  ]
+			});
+		}
+
+	});
+
+</script>
+<script>
+function gmsc(name, value)
+{
+	if(value != undefined && value)
+	{
+		var expires = new Date();
+		expires.setTime(expires.getTime() + parseInt(3600*24*1000*90));
+		document.cookie = encodeURIComponent(name) + "=" + encodeURIComponent(value) + '; expires='+ expires.toUTCString() + "; path=/";
+	}
+}
+let gmqs = window.location.search;
+let gmup = new URLSearchParams(gmqs);
+gmsc('g_sc', gmup.get('shop_campaign'));
+gmsc('shop_utm_campaign', gmup.get('utm_campaign'));
+gmsc('shop_utm_medium', gmup.get('utm_medium'));
+gmsc('shop_utm_source', gmup.get('utm_source'));
+</script><script>
+	$.Gomag.bind('Product/Add/To/Cart/After/Listing', function(event, data){
+		if(data.product !== undefined){
+			gtag('event', 'add_to_cart', {
+				send_to	: 'AW-1019096781',
+				value	: parseFloat(data.product.productQuantity) * parseFloat(data.product.price),
+				items	:[{
+					id		: data.product.sku,
+					name	: data.product.name,
+					brand	: data.product.brand,
+					category: data.product.category,
+					quantity: data.product.productQuantity,
+					price	: data.product.price
+				 
+			}]
+		   })
+        }
+	})
+	$.Gomag.bind('Product/Add/To/Cart/After/Details', function(event, data){
+		
+		if(data.product !== undefined){
+			gtag('event', 'add_to_cart', {
+				send_to: 'AW-1019096781',
+				value: parseFloat(data.product.productQuantity) * parseFloat(data.product.price),
+				items: [{
+					id: data.product.sku,
+					name		: data.product.name,
+					brand		: data.product.brand,
+					category	: data.product.category,
+					quantity	: data.product.productQuantity,
+					price		: data.product.price
+				}]	
+			})
+		}
+	})
+   
+</script><script>
+$.Gomag.bind('User/Data/AffiliateMarketing/HideTrafiLeak', function(event, data){
+
+    //hide tawk.to widget
+	Tawk_API = Tawk_API || {};
+	Tawk_API.onBeforeLoad = function(){
+		Tawk_API.hideWidget();
+	};
+});
+</script><meta name="google-site-verification" content="5CizBZdUS4aPuMr99ku3T1_F1rMTxNFa5o4dO5Kiu0Q" />					
+		
+	</head>
+
+	<body class="" style="">
+
+		<script >
+			function _addCss(url, attribute, value, loaded){
+				var _s = document.createElement('link');
+				_s.rel = 'stylesheet';
+				_s.href = url;
+				_s.type = 'text/css';
+				if(attribute)
+				{
+					_s.setAttribute(attribute, value)
+				}
+				if(loaded){
+					_s.onload = function(){
+						var dom = document.getElementsByTagName('body')[0];
+						//dom.classList.remove('loading');
+					}
+				}
+				var _st = document.getElementsByTagName('link')[0];
+				_st.parentNode.insertBefore(_s, _st);
+			}
+			//_addCss('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+			_addCss('https://gomagcdn.ro/themes/_fonts/Open-Sans.css');
+
+		</script>
+		<script>
+				/*setTimeout(
+				  function()
+				  {
+				   document.getElementsByTagName('body')[0].classList.remove('loading');
+				  }, 1000);*/
+		</script>
+							
+		
+		<div id="wrapper">
+			<!-- BLOCK:f6f67cb2e839576f1142eddd3a21f002 start -->
+<div id="_cartSummary" class="hide"></div>
+
+<script >
+	$(document).ready(function() {
+
+		$(document).on('keypress', '.-g-input-loader', function(){
+			$(this).addClass('-g-input-loading');
+		})
+
+		$.Gomag.bind('Product/Add/To/Cart/After', function(eventResponse, properties)
+		{
+									var data = JSON.parse(properties.data);
+			$('.q-cart').html(data.quantity);
+			if(parseFloat(data.quantity) > 0)
+			{
+				$('.q-cart').removeClass('hide');
+			}
+			else
+			{
+				$('.q-cart').addClass('hide');
+			}
+			$('.cartPrice').html(data.subtotal + ' ' + data.currency);
+			$('.cartProductCount').html(data.quantity);
+
+
+		})
+		$('#_cartSummary').on('updateCart', function(event, cart) {
+			var t = $(this);
+
+			$.get('https://www.verdeco.ro/cart-update', {
+				cart: cart
+			}, function(data) {
+
+				$('.q-cart').html(data.quantity);
+				if(parseFloat(data.quantity) > 0)
+				{
+					$('.q-cart').removeClass('hide');
+				}
+				else
+				{
+					$('.q-cart').addClass('hide');
+				}
+				$('.cartPrice').html(data.subtotal + ' ' + data.currency);
+				$('.cartProductCount').html(data.quantity);
+			}, 'json');
+			window.ga = window.ga || function() {
+				(ga.q = ga.q || []).push(arguments)
+			};
+			ga('send', 'event', 'Buton', 'Click', 'Adauga_Cos');
+		});
+
+		if(window.gtag_report_conversion) {
+			$(document).on("click", 'li.phone-m', function() {
+				var phoneNo = $('li.phone-m').children( "a").attr('href');
+				gtag_report_conversion(phoneNo);
+			});
+
+		}
+
+	});
+</script>
+
+
+
+<header class="main-header container-bg clearfix" data-block="headerBlock">
+	<div class="discount-tape container-h full -g-hide" id="_gomagHellobar"></div>
+
+		
+	<div class="top-head-bg container-h full">
+
+		<div class="top-head container-h">
+			<div class="row">
+				<div class="col-sm-2 col-xs-12 logo-h">
+					
+	<a href="https://www.verdeco.ro" id="logo" data-pageId="2">
+		<img src="https://gomagcdn.ro/domains/verdeco.ro/files/company/logo24001679.png" fetchpriority="high" class="img-responsive" alt="verdeco" title="verdeco" width="200" height="50" style="width:auto;">
+	</a>
+				</div>
+				<div class="col-sm-4 col-xs-7 main search-form-box">
+					
+<form name="search-form" class="search-form" action="https://www.verdeco.ro/produse" id="_searchFormMainHeader">
+
+	<input id="_autocompleteSearchMainHeader" name="c" class="input-placeholder -g-input-loader" type="text" placeholder="Cauta in site..." aria-label="Search"  value="">
+	<button id="_doSearch" class="search-button" aria-hidden="true">
+		<i class="fa fa-search" aria-hidden="true"></i>
+	</button>
+
+				<script >
+			$(document).ready(function() {
+
+				$('#_autocompleteSearchMainHeader').autocomplete({
+					serviceUrl: 'https://www.verdeco.ro/autocomplete',
+					minChars: 2,
+					deferRequestBy: 700,
+					appendTo: '#_searchFormMainHeader',
+					width: parseInt($('#_doSearch').offset().left) - parseInt($('#_autocompleteSearchMainHeader').offset().left),
+					formatResult: function(suggestion, currentValue) {
+						return suggestion.value;
+					},
+					onSelect: function(suggestion) {
+						$(this).val(suggestion.data);
+					},
+					onSearchComplete: function(suggestion) {
+						$(this).removeClass('-g-input-loading');
+						$.Gomag.trigger('Autocomplete/Search/Complete', {search:$('#_autocompleteSearchMainHeader').val()});
+					}
+				});
+				$(document).on('click', '#_doSearch', function(e){
+					e.preventDefault();
+					if($('#_autocompleteSearchMainHeader').val() != '')
+					{
+						$('#_searchFormMainHeader').submit();
+					}
+				})
+			});
+		</script>
+	
+
+</form>
+				</div>
+				<div class="col-xs-5 acount-section">
+					
+<ul>
+	<li class="search-m hide">
+		<a href="#" class="-g-no-url" aria-label="Cauta in site..." data-pageId="">
+			<i class="fa fa-search search-open" aria-hidden="true"></i>
+			<i style="display:none" class="fa fa-times search-close" aria-hidden="true"></i>
+		</a>
+	</li>
+	<li class="-g-user-icon -g-user-icon-empty">
+
+	</li>
+
+				<li class="contact-header">
+			<a href="tel:0746257734" aria-label="Contacteaza-ne" data-pageId="3">
+				<i class="fa fa-phone" aria-hidden="true"></i>
+								<span>0746257734</span>
+			</a>
+		</li>
+			<li class="wishlist-header hide">
+		<a href="https://www.verdeco.ro/wishlist" aria-label="Wishlist" data-pageId="28">
+			<span class="-g-wishlist-product-count -g-hide"></span>
+			<i class="fa fa-heart-o" aria-hidden="true"></i>
+			<span class="">Favorite</span>
+		</a>
+	</li>
+	<li class="cart-header-btn cart">
+		<a class="cart-drop _showCartHeader" href="https://www.verdeco.ro/cos-de-cumparaturi" aria-label="Cos de cumparaturi">
+			<span class="q-cart hide">0</span>
+			<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+			<span class="count cartPrice">0,00
+				
+			</span>
+		</a>
+					<div class="cart-dd  _cartShow cart-closed"></div>
+			</li>
+
+	</ul>
+
+	<script>
+		$(document).ready(function() {
+			//Cart
+							$('.cart').mouseenter(function() {
+					$.Gomag.showCartSummary('div._cartShow');
+				}).mouseleave(function() {
+					$.Gomag.hideCartSummary('div._cartShow');
+					$('div._cartShow').removeClass('cart-open');
+				});
+						$(document).on('click', '.dropdown-toggle', function() {
+				window.location = $(this).attr('href');
+			})
+		})
+	</script>
+
+				</div>
+				<div class="col-xs-5 navigation-holder">
+					
+<div id="navigation">
+	<nav id="main-menu" class="main-menu container-h full clearfix">
+		<a href="#" class="menu-trg -g-no-url" title="Produse">
+			<span>&nbsp;</span>
+		</a>
+		
+<div class="container-h nav-menu-hh clearfix">
+
+	<!-- BASE MENU -->
+	<ul class="
+			nav-menu base-menu container-h
+			
+			
+		">
+
+		
+
+			
+		<li class="menu-drop __GomagMM ">
+							<a
+					href="https://www.verdeco.ro/tapet"
+					class="  "
+					rel="  "
+					
+					title="Tapet"
+					data-Gomag=''
+					data-block-name="mainMenuD0"
+					data-pageId= "83"
+					data-block="mainMenuD">
+											<span class="list">Tapet</span>
+						<i class="fa fa-angle-down"></i>
+				</a>
+
+									<div class="menu-dd">
+										<ul class="drop-list clearfix w100">
+																																						<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-copii"
+												class="title    "
+												rel="  "
+												
+												title="Modele copii"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "106"
+												>
+																										Modele copii
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/designeri-celebri"
+												class="title    "
+												rel="  "
+												
+												title="Designeri celebri"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "87"
+												>
+																										Designeri celebri
+												</a>
+											</p>
+																																															<a
+														href="https://www.verdeco.ro/tapet-karl-lagerfeld"
+														rel="  "
+														
+														title="Karl Lagerfeld"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="87"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Karl Lagerfeld</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/schoner-wohnen"
+														rel="  "
+														
+														title="Schoner Wohnen"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="87"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Schoner Wohnen</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/versace"
+														rel="  "
+														
+														title="Versace"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="87"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Versace</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/tapet-design-luigi-colani"
+														rel="  "
+														
+														title="Luigi Colani"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="87"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Luigi Colani</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/tapet-design-daniel-hechter-paris"
+														rel="  "
+														
+														title="Daniel Hechter"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="87"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Daniel Hechter</span>
+													</a>
+																							
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-modele-imitatie-lemn-piatra-caramida-beton-piele-blana"
+												class="title    "
+												rel="  "
+												
+												title="Texturi & imitatii"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "128"
+												>
+																										Texturi &amp; imitatii
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-modele-uni"
+												class="title    "
+												rel="  "
+												
+												title="Unicolor"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "93"
+												>
+																										Unicolor
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-floral"
+												class="title    "
+												rel="  "
+												
+												title="Floral"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "94"
+												>
+																										Floral
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-dungi-linii-verticale-orizontale"
+												class="title    "
+												rel="  "
+												
+												title="Linii & dungi"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "91"
+												>
+																										Linii &amp; dungi
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-natura"
+												class="title    "
+												rel="  "
+												
+												title="Inspirat din natura"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "86"
+												>
+																										Inspirat din natura
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/modele-tapet-grafice-geometrice"
+												class="title    "
+												rel="  "
+												
+												title="Abstract & geometric"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "92"
+												>
+																										Abstract &amp; geometric
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/modele-3d"
+												class="title    "
+												rel="  "
+												
+												title="Modele 3D"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "462"
+												>
+																										Modele 3D
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-clasic"
+												class="title    "
+												rel="  "
+												
+												title="Clasic"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "97"
+												>
+																										Clasic
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-modern"
+												class="title    "
+												rel="  "
+												
+												title="Modern"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "85"
+												>
+																										Modern
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-modele-retro-vintage"
+												class="title    "
+												rel="  "
+												
+												title="Retro, etno & rustic"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "130"
+												>
+																										Retro, etno &amp; rustic
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/food-drink"
+												class="title    "
+												rel="  "
+												
+												title="Food & drink"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "459"
+												>
+																										Food &amp; drink
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-modele-alb-negru-clasic-modern-geometric-3d-floral-uni"
+												class="title    "
+												rel="  "
+												
+												title="Alb & negru"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "88"
+												>
+																										Alb &amp; negru
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/realistic"
+												class="title    "
+												rel="  "
+												
+												title="Imagini & realistic"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "460"
+												>
+																										Imagini &amp; realistic
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/luxury"
+												class="title    "
+												rel="  "
+												
+												title="Luxury"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "461"
+												>
+																										Luxury
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																													</ul>
+																	</div>
+									
+		</li>
+		
+		<li class="menu-drop __GomagMM ">
+							<a
+					href="https://www.verdeco.ro/fototapet"
+					class="  "
+					rel="  "
+					
+					title="Fototapet"
+					data-Gomag=''
+					data-block-name="mainMenuD0"
+					data-pageId= "4"
+					data-block="mainMenuD">
+											<span class="list">Fototapet</span>
+						<i class="fa fa-angle-down"></i>
+				</a>
+
+									<div class="menu-dd">
+										<ul class="drop-list clearfix w100">
+																																						<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/fototapet-peisaje-natura-florale-marine-exotice"
+												class="title    "
+												rel="  "
+												
+												title="Peisaje & Natura"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "22"
+												>
+																										Peisaje &amp; Natura
+												</a>
+											</p>
+																																															<a
+														href="https://www.verdeco.ro/fototapet-peisaje"
+														rel="  "
+														
+														title="Fototapet peisaje"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="22"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Fototapet peisaje</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/fototapete-florale"
+														rel="  "
+														
+														title="Fototapete florale"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="22"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Fototapete florale</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/fototapet-cu-padure"
+														rel="  "
+														
+														title="Fototapet cu padure"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="22"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Fototapet cu padure</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/fototapet-cu-animale"
+														rel="  "
+														
+														title="Fototapet cu animale"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="22"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Fototapet cu animale</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/fototapet-apus-sau-rasarit"
+														rel="  "
+														
+														title="Fototapet apus sau rasarit"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="22"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Fototapet apus sau rasarit</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/national-geographic"
+														rel="  "
+														
+														title="National Geographic"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="22"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>National Geographic</span>
+													</a>
+																							
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/fototapet-urban-3d-geometric-imagini-artistice"
+												class="title    "
+												rel="  "
+												
+												title="Fototapet imagini diverse"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "7"
+												>
+																										Fototapet imagini diverse
+												</a>
+											</p>
+																																															<a
+														href="https://www.verdeco.ro/fototapet-harti-cosmos-spatiu"
+														rel="  "
+														
+														title="Cosmos & harti"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="7"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Cosmos &amp; harti</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/masini"
+														rel="  "
+														
+														title="Masini"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="7"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Masini</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/sport"
+														rel="  "
+														
+														title="Sport"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="7"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Sport</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/3d"
+														rel="  "
+														
+														title="3D"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="7"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>3D</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/fototapet-3d-grafic-geometric"
+														rel="  "
+														
+														title="Fototapet abstract, 3D, geometric"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="7"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Fototapet abstract, 3D, geometric</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/orase-monumente-opere-arta"
+														rel="  "
+														
+														title="Orase, monumente, opere arta"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="7"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Orase, monumente, opere arta</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/fototapet-imitatii-texturi-piele-caramida-lemn"
+														rel="  "
+														
+														title="Imitatii, texturi, obiecte"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="7"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Imitatii, texturi, obiecte</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/fototapete-cu-flori-decoratiuni-perete-imagini-florale"
+														rel="  "
+														
+														title="Fototapete cu flori"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="7"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Fototapete cu flori</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/celebritati-personaje-actori-sportivi"
+														rel="  "
+														
+														title="Celebritati, personaje"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="7"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Celebritati, personaje</span>
+													</a>
+																							
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/fototapet-camere-copii-personaje-disney-marvel"
+												class="title    "
+												rel="  "
+												
+												title="Fototapet copii"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "6"
+												>
+																										Fototapet copii
+												</a>
+											</p>
+																																															<a
+														href="https://www.verdeco.ro/fototapete-decoratiuni-pereti-camere-copii"
+														rel="  "
+														
+														title="Fototapet copii fara licente"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="6"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Fototapet copii fara licente</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/fototapet-disney"
+														rel="  "
+														
+														title="Fototapet Disney"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="6"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Fototapet Disney</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/fototapet-star-wars"
+														rel="  "
+														
+														title="Fototapet Star Wars"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="6"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Fototapet Star Wars</span>
+													</a>
+																							
+										</div>
+									</li>
+																													</ul>
+																	</div>
+									
+		</li>
+		
+		<li class="menu-drop __GomagMM ">
+							<a
+					href="https://www.verdeco.ro/profile-decorative-polimer-dur-poliuretan"
+					class="  "
+					rel="  "
+					
+					title="Profile decorative"
+					data-Gomag=''
+					data-block-name="mainMenuD0"
+					data-pageId= "262"
+					data-block="mainMenuD">
+											<span class="list">Profile decorative</span>
+						<i class="fa fa-angle-down"></i>
+				</a>
+
+									<div class="menu-dd">
+										<ul class="drop-list clearfix w100">
+																																						<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/cornise-tavan"
+												class="title    "
+												rel="  "
+												
+												title="Cornise tavan"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "104"
+												>
+																										Cornise tavan
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/plinte-pardoseala"
+												class="title    "
+												rel="  "
+												
+												title="Plinte pardoseala"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "104"
+												>
+																										Plinte pardoseala
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/brauri-si-ancadramente"
+												class="title    "
+												rel="  "
+												
+												title="Brauri, rame, ancadramente"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "104"
+												>
+																										Brauri, rame, ancadramente
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/riflaje-lamelli-mardomdecor"
+												class="title    "
+												rel="  "
+												
+												title="Riflaje - Lamelli"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "104"
+												>
+																										Riflaje - Lamelli
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																													</ul>
+																	</div>
+									
+		</li>
+		
+		<li class="menu-drop __GomagMM ">
+								<a
+						href="https://www.verdeco.ro/vopsele"
+						class="    "
+						rel="  "
+						
+						title="Vopsele"
+						data-Gomag=''
+						data-block-name="mainMenuD0"  data-block="mainMenuD" data-pageId= "313">
+												<span class="list">Vopsele</span>
+					</a>
+				
+		</li>
+		
+		<li class="menu-drop __GomagMM ">
+							<a
+					href="https://www.verdeco.ro/camere-copii"
+					class="  "
+					rel="  "
+					
+					title="Camere copii"
+					data-Gomag=''
+					data-block-name="mainMenuD0"
+					data-pageId= "8"
+					data-block="mainMenuD">
+											<span class="list">Camere copii</span>
+						<i class="fa fa-angle-down"></i>
+				</a>
+
+									<div class="menu-dd">
+										<ul class="drop-list clearfix w100">
+																																						<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-camere-copii"
+												class="title    "
+												rel="  "
+												
+												title="Tapet camere copii"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "104"
+												>
+																										Tapet camere copii
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/fototapete-copii"
+												class="title    "
+												rel="  "
+												
+												title="Fototapete copii"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "104"
+												>
+																										Fototapete copii
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																													</ul>
+																	</div>
+									
+		</li>
+		
+		<li class="menu-drop __GomagMM ">
+							<a
+					href="https://www.verdeco.ro/adezivi-scule"
+					class="  "
+					rel="  "
+					
+					title="Adezivi & scule"
+					data-Gomag=''
+					data-block-name="mainMenuD0"
+					data-pageId= "113"
+					data-block="mainMenuD">
+											<span class="list">Adezivi &amp; scule</span>
+						<i class="fa fa-angle-down"></i>
+				</a>
+
+									<div class="menu-dd">
+										<ul class="drop-list clearfix w100">
+																																						<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/adezivi-solutii-impregnanti-chituri-amorse-tapet-vopsele"
+												class="title    "
+												rel="  "
+												
+												title="Adezivi & solutii"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "104"
+												>
+																										Adezivi &amp; solutii
+												</a>
+											</p>
+																																															<a
+														href="https://www.verdeco.ro/adeziv-tapet-fototapet-de-calitate"
+														rel="  "
+														
+														title="Adezivi tapet & fototapet"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="113"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Adezivi tapet &amp; fototapet</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/impregnant-protectie-tapet-fototapet-vopsele-lavabile-decorative"
+														rel="  "
+														
+														title="Solutii protectoare tapet & vopsele"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="113"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Solutii protectoare tapet &amp; vopsele</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/chituri-amorse-decapante-pregatirea-peretilor"
+														rel="  "
+														
+														title="Pregatirea peretelui, chituri, amorse"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="113"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Pregatirea peretelui, chituri, amorse</span>
+													</a>
+																									<a
+														href="https://www.verdeco.ro/dezlipire-tapet-indepartare-vopsele-vechi"
+														rel="  "
+														
+														title="Solutii indepartare tapet & vopsele"
+														class="    "
+														data-Gomag=''
+														data-block-name="mainMenuD2"
+														data-block="mainMenuD"
+														data-pageId="113"
+													>
+																												<i class="fa fa-angle-right"></i>
+														<span>Solutii indepartare tapet &amp; vopsele</span>
+													</a>
+																							
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/adeziv-vopsele-cornise-brauri-ancadramente-plinte"
+												class="title    "
+												rel="  "
+												
+												title="Adezivi & accesorii profile decorative"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "104"
+												>
+																										Adezivi &amp; accesorii profile decorative
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/scule-tapet-vopsit"
+												class="title    "
+												rel="  "
+												
+												title="Scule pentru tapetat & vopsit"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= "104"
+												>
+																										Scule pentru tapetat &amp; vopsit
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																													</ul>
+																	</div>
+									
+		</li>
+		
+		<li class="menu-drop __GomagMM ">
+							<a
+					href="https://blog.verdeco.ro/2019/01/31/living-idei-amenajari/"
+					class="  "
+					rel="  "
+					target="_blank"
+					title="Galerii imagini"
+					data-Gomag=''
+					data-block-name="mainMenuD0"
+					data-pageId= ""
+					data-block="mainMenuD">
+											<span class="list">Galerii imagini</span>
+						<i class="fa fa-angle-down"></i>
+				</a>
+
+									<div class="menu-dd">
+										<ul class="drop-list clearfix w100">
+																																						<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://blog.verdeco.ro/2019/02/01/dormitor/"
+												class="title    "
+												rel="  "
+												target="_blank"
+												title="Living"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= ""
+												>
+																										Living
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://blog.verdeco.ro/2019/02/01/dormitor/"
+												class="title    "
+												rel="  "
+												target="_blank"
+												title="Dormitor"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= ""
+												>
+																										Dormitor
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://blog.verdeco.ro/2019/02/01/camere-copii/"
+												class="title    "
+												rel="  "
+												target="_blank"
+												title="Bucatarie"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= ""
+												>
+																										Bucatarie
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="#"
+												class="title     -g-no-url"
+												rel="  "
+												target="_blank"
+												title="Camere copii"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= ""
+												>
+																										Camere copii
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																													</ul>
+																	</div>
+									
+		</li>
+		
+		<li class="menu-drop __GomagMM ">
+							<a
+					href="https://www.verdeco.ro/promotii/"
+					class="  "
+					rel="  "
+					
+					title="Reduceri %"
+					data-Gomag=''
+					data-block-name="mainMenuD0"
+					data-pageId= ""
+					data-block="mainMenuD">
+											<span class="list">Reduceri %</span>
+						<i class="fa fa-angle-down"></i>
+				</a>
+
+									<div class="menu-dd">
+										<ul class="drop-list clearfix w100">
+																																						<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/tapet-elements-lemn-piatra-caramida-beton"
+												class="title    "
+												rel="  "
+												
+												title="Tapet Elements -10%"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= ""
+												>
+																										Tapet Elements -10%
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																																<li class="fl">
+										<div class="col">
+											<p class="title">
+												<a
+												href="https://www.verdeco.ro/fototapet/wizard-genius-w-g-producator-fototapet"
+												class="title    "
+												rel="  "
+												
+												title="Fototapet W+G -25%"
+												data-Gomag=''
+												data-block-name="mainMenuD1"
+												data-block="mainMenuD"
+												data-pageId= ""
+												>
+																										Fototapet W+G -25%
+												</a>
+											</p>
+																						
+										</div>
+									</li>
+																													</ul>
+																	</div>
+									
+		</li>
+						
+		
+
+	
+		<li class="menu-drop __GomagSM   ">
+
+			<a
+				href="https://www.verdeco.ro/blog"
+				rel="  "
+				
+				title="Blog"
+				data-Gomag=''
+				data-block="mainMenuD"
+				data-pageId= "111"
+				class=" "
+			>
+								Blog
+							</a>
+					</li>
+	
+		
+	</ul> <!-- end of BASE MENU -->
+
+</div>		<ul class="mobile-icon fr">
+
+							<li class="phone-m">
+					<a href="tel:0746257734" title="Contacteaza-ne">
+												<i class="fa fa-phone" aria-hidden="true"></i>
+					</a>
+				</li>
+									<li class="user-m -g-user-icon -g-user-icon-empty">
+			</li>
+			<li class="wishlist-header-m hide">
+				<a href="https://www.verdeco.ro/wishlist">
+					<span class="-g-wishlist-product-count"></span>
+					<i class="fa fa-heart-o" aria-hidden="true"></i>
+
+				</a>
+			</li>
+			<li class="cart-m">
+				<a href="https://www.verdeco.ro/cos-de-cumparaturi" aria-label="Cos de cumparaturi">
+					<span class="q-cart hide">0</span>
+					<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+				</a>
+			</li>
+			<li class="search-m">
+				<a href="#" class="-g-no-url" aria-label="Cauta in site...">
+					<i class="fa fa-search search-open" aria-hidden="true"></i>
+					<i style="display:none" class="fa fa-times search-close" aria-hidden="true"></i>
+				</a>
+			</li>
+					</ul>
+	</nav>
+	<!-- end main-nav -->
+
+	<div style="display:none" class="search-form-box search-toggle">
+		<form name="search-form" class="search-form" action="https://www.verdeco.ro/produse" id="_searchFormMobileToggle">
+			<input id="_autocompleteSearchMobileToggle" name="c" class="input-placeholder -g-input-loader" type="text" autofocus="autofocus" value="" placeholder="Cauta in site..." aria-label="Search">
+			<button id="_doSearchMobile" class="search-button" aria-hidden="true">
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+
+										<script >
+					$(document).ready(function() {
+						$('#_autocompleteSearchMobileToggle').autocomplete({
+							serviceUrl: 'https://www.verdeco.ro/autocomplete',
+							minChars: 2,
+							deferRequestBy: 700,
+							appendTo: '#_searchFormMobileToggle',
+							width: parseInt($('#_doSearchMobile').offset().left) - parseInt($('#_autocompleteSearchMobileToggle').offset().left),
+							formatResult: function(suggestion, currentValue) {
+								return suggestion.value;
+							},
+							onSelect: function(suggestion) {
+								$(this).val(suggestion.data);
+							},
+							onSearchComplete: function(suggestion) {
+								$(this).removeClass('-g-input-loading');
+								$.Gomag.trigger('Autocomplete/Search/Complete', {search:$('#_autocompleteSearchMobileToggle').val()});
+							}
+						});
+
+						$(document).on('click', '#_doSearchMobile', function(e){
+							e.preventDefault();
+							if($('#_autocompleteSearchMobileToggle').val() != '')
+							{
+								$('#_searchFormMobileToggle').submit();
+							}
+						})
+					});
+				</script>
+			
+		</form>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+<!-- end main-header --><!-- BLOCK:f6f67cb2e839576f1142eddd3a21f002 end -->
+			
+<style>
+#result-page .landing-content{padding:0;}
+</style>
+<div class="container-h container-bg">
+
+	<div class="breadcrumbs-default clearfix -g-breadcrumbs-container">
+		<ol>
+			<li><a href="https://www.verdeco.ro/">Home&nbsp;/&nbsp;</a></li>
+			<li><a href="" class="active">404 Page Not Found</a></li>
+		</ol>
+	</div> <!-- breadcrumbs-default -->
+
+	<div id="result-page">
+					
+
+	<div class="container-bg titleComponent container-h  gomagComponent -g-component-id- " data-gomag-component=&quot;0&quot;>
+				<style>
+			.titleComponent h1{font-size: 30px;margin-bottom:20px; padding-bottom: 10px;}
+			.titleComponent h2{font-size: 25px;margin-bottom:15px;}
+			.titleComponent h2 a{text-decoration: none;}
+		</style>
+				<h1 class="title" style="">
+									404 Page Not Found
+					</h1>
+	</div>
+
+
+	<div class="landing-content container-bg _descriptionTab  container-h  gomagComponent  -g-component-id- " data-gomag-component=&quot;0&quot;>
+		<style>
+			.landing-content ol, .landing-content ul {
+				list-style: initial;
+				padding-left: 20px;
+				margin: 10px 0;
+			}
+		</style>
+		404 Page Not Found
+	</div>
+
+				<div class="Form404">
+		<form name="search-form" id="_searchForm404" class="search-form" action="https://www.verdeco.ro/produse">
+			<input class="input-placeholder" id="_autocompleteSearch404" name="c" type="text" value="Cauta in site..." data-placeholder="Cauta in site...">
+			<input type="submit" value="" id="_doSearch404"><i class="fa fa-search" aria-hidden="true"></i>
+
+			
+							<script >
+					$(document).ready(function() {
+
+						$('#_autocompleteSearch404').autocomplete({
+							serviceUrl: 'https://www.verdeco.ro/autocomplete',
+							minChars: 2,
+							deferRequestBy: 700,
+							appendTo: '#_searchForm404',
+							width: parseInt($('#_doSearch404').offset().left) - parseInt($('#_autocompleteSearch404').offset().left),
+							formatResult: function(suggestion, currentValue) {
+								return suggestion.value;
+							},
+							onSelect: function(suggestion) {
+								$(this).val(suggestion.data);
+							},
+							onSearchComplete: function(suggestion) {
+								$(this).removeClass('-g-input-loading');
+								$.Gomag.trigger('Autocomplete/Search/Complete', {search:$('#_searchForm404').val()});
+							}
+						});
+
+					});
+				</script>
+			
+
+		</form>
+
+		</div>
+	</div> <!-- end result-page -->
+
+</div>
+
+
+<div class="clear"></div>
+
+			<!-- BLOCK:e300f7dcca9695927bb0e6bd26c5dc94 start -->
+<div id="-g-footer-general-before"></div>
+
+	<div class="bottom-section container-h full">
+		<div class="holder">
+			<div class="container-h flex-box clearfix">
+									
+<div class="col newsletter">
+	<p class="title">Newsletter
+		<span>Nu rata ofertele si promotiile noastre</span>
+	</p>
+	<form id="main-newsletter-form" class="newsletter-form ">
+				<input id="_emailAddress" type="text" placeholder="Adresa de email">
+		<input type="submit" id="_subscribe" value="Aboneaza-te">
+
+		<div class="custom-chk"><label class="agreement-label -g-agreement-NewsletterInformation"><input type="checkbox" name="agreeNewsletterInformation" value="f26171639be1df441ee7f8ea553a7c93" > <span class="agreement-text">Vreau sa primesc newsletter cu promotiile magazinului. Afla mai multe in <a href="https://www.verdeco.ro/politica-de-confidentialitate" onclick="$.Gomag.openPopupWithData('#info-btn', {iframe : {css : {width : '600px'}}, src: 'https://www.verdeco.ro/politica-de-confidentialitate?type=popup'});" class="-g-agreement-link -g-no-url">Politica de Confidentialitate</a></span></label></div>
+	</form>
+</div>
+
+<script >
+	$(document).ready(function(){
+		$('#_subscribe').on('click', function(e){
+			e.preventDefault();
+			$('#_emailAddress').attr('name', 'email');
+			
+
+			$.post('https://www.verdeco.ro/abonare-newsletter', $('#main-newsletter-form').serializeArray(), function(data){
+				var result = data.result;
+
+				var p = 'error';
+
+				if(result == 1) {
+					p = 'succes';
+				} else if(result == 11) {
+					p = 'succesOptIn';
+				} else if(result == 2) {
+					p = 'mail_exists';
+				} else if(result == -1) {
+					p = 'mail_exists';
+				} else if(result == 'noUserAgreement') {
+					p = 'noUserAgreement';
+				}
+				if(p == 'succes' || p == 'succesOptIn' || p == 'mail_exists')
+				{
+					var values ={email:$('#_emailAddress').val()};
+					$.Gomag.trigger('INFO_USER',{data:values});
+
+					$('#_emailAddress').val('');
+										$('.-g-agreement-NewsletterInformation').find('input[name="agreeNewsletterInformation"]').attr('checked', false);
+				}
+				if((p == 'succes' || p == 'succesOptIn' || p == 'mail_exists') && $.Gomag.getWidgets('popup:newletterSubscriptionConfirm') !== false)
+				{
+					$.Gomag.triggerPopup('popup:newletterSubscriptionConfirm');
+				}
+				else
+				{
+					$.Gomag.openDefaultPopup(undefined, {
+						src : 'https://www.verdeco.ro/iframe-newsletter?p='+p,
+						iframe : {css : {width : '400px'}}
+					});
+				}
+			}, "json");
+		});
+	});
+</script>
+
+				
+									
+<div class="col social">
+	<p class="title">Social
+		<span>Urmareste-ne in social media</span>
+	</p>
+	<ul>
+					<li>
+				<a target="_blank" href="https://www.facebook.com/verdeco.tapet.fototapet.profile.decoratiuni" aria-label="Facebook" rel="noopener nofollow" >
+					<i class="fa fa-facebook"></i>
+				</a>
+			</li>
+							<li>
+				<a target="_blank" href="https://ro.pinterest.com/verdeco0008/pins/" aria-label="Pinterest" rel="noopener nofollow" >
+					<i class="fa fa-pinterest-p"></i>
+				</a>
+			</li>
+							<li>
+				<a target="_blank" href="https://www.youtube.com/channel/UCyfGdtpnwRB-f9D6RGrWEfg" aria-label="Youtube" rel="noopener nofollow">
+					<i class="fa fa-youtube"></i>
+				</a>
+			</li>
+																	<li>
+				<a target="_blank" href="https://www.instagram.com/verdeco.ro/" aria-label="Instagram" rel="noopener nofollow">
+					<i class="fa fa-instagram"></i>
+				</a>
+			</li>
+			</ul>
+</div>
+				
+									
+<div class="col support">
+	<p class="title">Suport clienti
+		<span>L-V 9-17</span>
+	</p>
+	
+			<a href="tel:0746257734" class="support-contact" >
+			<i class="fa fa-phone" aria-hidden="true"></i> 0746257734
+		</a>
+		
+		
+			<a href="mailto:office@verdeco.ro" data-contact="bWFpbHRvOm9mZmljZUB2ZXJkZWNvLnJv" class="support-contact" >
+			<i class="fa fa-envelope-o" aria-hidden="true"></i>
+			&#111;ffi&#x63;&#x65;&#x40;v&#101;rde&#99;&#111;&#46;&#x72;&#111;
+		</a>
+	</div>							</div>
+		</div>
+	</div> <!-- end bottom-section -->
+
+<footer class="container-h full" id="-g-footer-general">
+	<div class="main-footer container-h container-bg clearfix">
+		<div class="row">
+
+									
+						<div class="col-md-3 col-xs-4 col">
+
+													<div class="-g-footer-group">
+						<p class="title">
+															<a
+									href="#"
+									rel="  "
+									
+									
+									
+									class="  -g-no-url"
+								>
+										INFO UTILE
+								</a> <i class="fa fa-angle-down" aria-hidden="true"></i>
+													</p>
+													<ul class="footer-submenu" data-block="footerFirstColumnLinks">
+																	<li>
+									<a
+										href="https://www.verdeco.ro/instructiuni-montaj-tapet"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Instrucțiuni montaj tapet
+									</a></li>
+																	<li>
+									<a
+										href="https://www.verdeco.ro/simboluri-tapet"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Simboluri tapet
+									</a></li>
+																	<li>
+									<a
+										href="https://www.verdeco.ro/tipuri-de-tapet"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Tipuri de tapet
+									</a></li>
+																	<li>
+									<a
+										href="https://www.verdeco.ro/masuratori-tapet"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Cum masor?
+									</a></li>
+																	<li>
+									<a
+										href="https://www.verdeco.ro/instructiuni-montaj-fototapet"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Instrucțiuni montaj fototapet
+									</a></li>
+															</ul>
+											</div>
+							</div>
+					<div class="col-md-3 col-xs-4 col">
+
+													<div class="-g-footer-group">
+						<p class="title">
+															<a
+									href="#"
+									rel="  "
+									
+									
+									
+									class="  -g-no-url"
+								>
+										SUPORT CLIENȚI
+								</a> <i class="fa fa-angle-down" aria-hidden="true"></i>
+													</p>
+													<ul class="footer-submenu" data-block="footerFirstColumnLinks">
+																	<li>
+									<a
+										href="https://www.verdeco.ro/verdeco-magazin-tapet-fototapet-stickere-decoratiuni"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Despre Verdeco
+									</a></li>
+																	<li>
+									<a
+										href="https://www.verdeco.ro/termeni-si-conditii-verdeco"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Termeni si Conditii
+									</a></li>
+																	<li>
+									<a
+										href="https://www.verdeco.ro/politica-de-retur"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Politica de Retur
+									</a></li>
+																	<li>
+									<a
+										href="https://www.verdeco.ro/conditii-livrare"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Informatii Livrare
+									</a></li>
+																	<li>
+									<a
+										href="https://www.verdeco.ro/metode-de-plata"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Metode de Plata
+									</a></li>
+																	<li>
+									<a
+										href="https://www.verdeco.ro/protectia-consumatorului"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Protectia consumatorului
+									</a></li>
+																	<li>
+									<a
+										href="https://www.verdeco.ro/politica-de-cookies"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Politica Cookies
+									</a></li>
+																	<li>
+									<a
+										href="https://www.verdeco.ro/politica-de-confidentialitate"
+										rel="  "
+										
+										
+										class=" "
+									>
+										Politica de Confidentialitate
+									</a></li>
+															</ul>
+											</div>
+							</div>
+			
+			<div class="col-md-2 col-xs-4 col -g-footer-company-data">
+				
+<p class="title">Date comerciale <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+<ul class="footer-submenu">
+	<li class="-g-company-name"><strong>Verdeco Design SRL</strong></li>
+	<li>J24/1048/2015</li>
+	<li>RO35156410</li>
+	<li>B-dul Unirii, nr. 22, 430232</li>
+	<li>Baia Mare, Maramures</li>
+	<li></li>
+			<a href="https://m.me/tapet.fototapet.romania" target="_blank" class="-g-messenger-button-with-icon">
+			<i class="fa fa-facebook-messenger"></i>
+			Contacteaza-ne
+		</a>
+	</ul>
+			</div>
+
+			<div class="col-md-4 col-xs-12 col col-right">
+				
+<div class="payment-accepted" id="-g-payment-accepted">
+							<img src="data:image/svg+xml,%3Csvg%20viewBox='0%200%20445%2037'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20fill='%23ffffff'%20fill-opacity='0'%20width='100%25'%20height='100%25'%20/%3E%3C/svg%3E" data-src="https://gomagcdn.ro/themes/fashion/gfx/euplatesc-footer-icons.svg" alt="euPlatesc" title="euPlatesc" class="img-responsive lazyload" width="445" height="37">
+							
+													<a href="https://reclamatiisal.anpc.ro/" target="_blank" rel="nofollow noopener"><img src="data:image/svg+xml,%3Csvg%20viewBox='0%200%20250%2050'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20fill='%23ffffff'%20fill-opacity='0'%20width='100%25'%20height='100%25'%20/%3E%3C/svg%3E" data-src="https://gomagcdn.ro/themes/fashion/gfx/sal.png" alt="SAL" title="SAL" class="img-responsive lazyload" width="250" height="50"></a>
+		<a href="https://europa.eu/youreurope/business/dealing-with-customers/solving-disputes/alternative-dispute-resolution/index_ro.htm" target="_blank" rel="nofollow noopener"><img src="data:image/svg+xml,%3Csvg%20viewBox='0%200%20250%2050'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20fill='%23ffffff'%20fill-opacity='0'%20width='100%25'%20height='100%25'%20/%3E%3C/svg%3E" data-src="https://gomagcdn.ro/themes/fashion/gfx/sol.png" alt="SOL" title="SOL" class="img-responsive lazyload" width="250" height="50"></a>
+	</div>				
+<p class="copyright">&copy;Copyright Verdeco Design SRL 2026
+						<span>Platforma E-commerce by Gomag</span>
+			</p>
+<div class="-g-footer-copyright-block" data-block="FooterCopyrightBlock">
+</div>
+			</div>
+
+			<div class="-g-footer-affiliate-block" data-block="FooterAffiliateBlock">
+				
+							</div>
+		</div>
+	</div>
+</footer> <!-- end main-footer --><!-- BLOCK:e300f7dcca9695927bb0e6bd26c5dc94 end -->			<div id="top"><a href="#top" aria-label="scroll top" style=""><i class="fa fa-angle-up"></i></a></div>
+		</div> <!-- end wrapper -->
+
+		
+		<script >
+
+			if($.Gomag.isMobile()){
+				$($GomagConfig.bannerDesktop).remove()
+				$($GomagConfig.bannerMobile).removeClass('hideSlide');
+			} else {
+				$($GomagConfig.bannerMobile).remove()
+				$($GomagConfig.bannerDesktop).removeClass('hideSlide');
+			}
+
+			$(document).ready(function(){
+				$(document).on('click', '.setCompare', function(){
+					if(!$(this).hasClass('ignoreChecked')){
+						if($(this).children('.new-checkbox').hasClass('checked')){
+							$(this).children('.new-checkbox').removeClass('checked');
+							$(this).children('.compareCk').prop('checked', false);
+						} else {
+							$(this).children('.new-checkbox').addClass('checked');
+							$(this).children('.compareCk').prop('checked', true);
+						}
+					}
+					var remove = $(this).children('.new-checkbox').hasClass('checked') ? 0 : $(this).attr('data-product');
+					$.get('https://www.verdeco.ro/set-compare', {product: $(this).attr('data-product'), removeProduct: remove}, function(data){
+
+						if(data.count > 1){
+							$.Gomag.openDefaultPopup(undefined, {
+								src : 'https://www.verdeco.ro/get-compare',
+								iframe : {css : {width : '1400px'}}
+							});
+						} else if(data.count == 1) {
+							showInfoCompare();
+						}
+					}, 'json')
+				});
+			});
+
+			//scroll to top
+			$("a[href='#top']").on('click', function(){return $("html, body").animate({scrollTop:0},"fast"),!1})
+			var lastScrollTop = 0;
+			$(window).scroll(function(){
+				if($(window).scrollTop()>100){
+					var st = $(this).scrollTop();
+					if (st < lastScrollTop){
+						$("#top a").css({opacity:"1",visibility:"visible",transform:"translateX(0)"})
+					} else {
+						$("#top a").css({opacity:"0",visibility:"hidden",transform:"translateX(50px)"})
+					}
+					lastScrollTop = st;
+				}else {
+					$("#top a").css({opacity:"0",visibility:"hidden",transform:"translateX(50px)"})
+				}
+			});
+
+			$(document).on('click', '.-g-no-url', function(e){ e.preventDefault(); })
+
+		</script>
+
+		<script src="https://gomagcdn.ro/themes/fashion/js/plugins.js?v=101181346-4.271"></script>
+		<script async src="https://gomagcdn.ro/themes/fashion/js/plugins-async.js?v=101181346-4.271"></script>
+
+					<script src="https://gomagcdn.ro/domains/verdeco.ro/themes/fashion/js/custom.js?1756385724"></script>
+		
+					<script src="https://www.verdeco.ro/theme/default.js?v=41772399862"></script>
+				<script src="https://gomagcdn.ro/themes/fashion/js/menu-mobile.js?v=101181346-4.271"></script>
+
+		<script id="gjs-dev" src="https://gomagcdn.ro/themes/fashion/js/dev.js?v=101181346-4.271" data-values='{"seeMore": "Vezi mai multe","seeLess": "Vezi mai putine"}'></script>
+
+									<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5e15ca8d7e39ea1242a39e7e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script--> <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/4b1683311b8551e8ad580426d/015758ab87a59ad47e162e7f3.js");</script>					
+		<script >
+			function showInfoCompare(){
+				$('.setCompareInfoH').addClass('visible');
+				setTimeout(function(){
+					$('.setCompareInfoH').removeClass('visible');
+					$('.closeList-pp').click();
+				},5000);
+			}
+			$(document).ready(function(){
+				/*$('.compareProductClse').on('click', function(){
+					$('.setCompareInfoH').removeClass('visible');
+				});*/
+
+				if($('.add2cart-pp').length > 1){
+					$('.catListPP').remove();
+				};
+			})
+		</script>
+		<script >
+			$(document).on('click', '.qtyplus', function(e){
+
+				$.Gomag.increaseQuantity($(this).data('id'));
+				if($.Gomag.isMaxQuantity($(this).data('id'))){
+					$(this).css('opacity', '0.5');
+				}else {
+					$(this).css('opacity', '1');
+				}
+
+				if($.Gomag.isMinQuantity($(this).data('id'))){
+					$(this).siblings('.qtyminus').css('opacity', '0.5');
+				}else {
+					$(this).siblings('.qtyminus').css('opacity', '1');
+				}
+				e.stopImmediatePropagation();
+			});
+
+			$(document).on('click', '.qtyminus', function(e) {
+
+				$.Gomag.decreaseQuantity($(this).data('id'));
+				if($.Gomag.isMinQuantity($(this).data('id'))){
+					$(this).css('opacity', '0.5');
+				}else {
+					$(this).css('opacity', '1');
+				}
+
+				if($.Gomag.isMaxQuantity($(this).data('id'))){
+					$(this).siblings('.qtyplus').css('opacity', '0.5');
+				}else {
+					$(this).siblings('.qtyplus').css('opacity', '1');
+				}
+				e.stopImmediatePropagation();
+			});
+		</script>
+
+					<script >
+				$(document).ready(function(){
+
+					$.Gomag.bind('User/Ajax/Data/Loaded', function(event, data){
+						if(data != undefined && data.data != undefined)
+						{
+							var responseData = data.data;
+							if(responseData.itemsQuantities != undefined)
+							{
+								var cartQuantity = 0;
+								$.each(responseData.itemsQuantities, function(i, v){
+
+									if($.Gomag.getEnvData().products != undefined && $.Gomag.getEnvData().products[i] != undefined && $.Gomag.getEnvData().products[i].stock != undefined  && v > 0 && v >= $.Gomag.getEnvData().products[i].stock)
+									{
+										if ($($GomagConfig.listingAddToCart +i).length != 0) {
+										 $($GomagConfig.listingAddToCart + i).removeClass('add2cartList').removeClass('btn-cmd').addClass('__GomagAddToCartDisabled').attr('onclick', null).html('Produs adaugat in cos');
+										}
+									}
+								});
+
+							}
+						}
+					});
+
+					$(document).on("click",".requestOfferList",function(e) {
+						e.preventDefault();
+						var url = $(this).attr('href');
+						$.Gomag.openDefaultPopup('.requestOfferList', {
+							src : url,
+							iframe : {css : {width : '360px'}}
+						});
+					});
+
+				});
+			</script>
+		
+		<script >
+							$.Gomag.bind('Product/Add/To/Cart/After', function addToCartPopup(response, data){
+					
+					$.Gomag.displayAddToCartPopup(response, data);
+				});
+						$.Gomag.bind('Product/Add/To/Wishlist/After', function addToCartPopup(response, data){
+					if(data.data.action == undefined || data.data.action == 'add')
+					{
+						$('.pop-r-txt-add').removeClass('hide');
+						$('.pop-r-txt-delete').addClass('hide');
+						$('.wishlistPopupIcon').addClass('icon-selected');
+					}
+					else if(data.data.action == 'remove')
+					{
+						$('.pop-r-txt-add').addClass('hide');
+						$('.pop-r-txt-delete').removeClass('hide');
+						$('.wishlistPopupIcon').removeClass('icon-selected');
+					}
+					$('.wishlist-pp').addClass('visible');
+					setTimeout(function(){
+						$('.wishlist-pp').removeClass('visible');
+					},5000);
+
+			})
+		</script>
+
+		<div class="setCompareInfoH">
+			<div style="display: flex;justify-content: space-between;flex-direction: row;align-items: center;">
+				<div style="overflow:hidden;padding-right: 12px;width:100%;">
+					<p class="prod-det-ttl" id="wishlistProducts">Compara produse</p>
+					<p class="pop-r-txt">Trebuie sa mai adaugi cel putin un produs pentru a compara produse.</p>
+				</div>
+				<i class="fa fa-times close-pp" aria-hidden="true"></i>
+			</div>
+		</div> <!-- end compare popup -->
+
+		<div class="wishlist-pp">
+			<div style="display: flex;justify-content: space-between;flex-direction: row;align-items: center;">
+				<i class="fa fa-heart wishlistPopupIcon" aria-hidden="true"></i>
+				<div style="overflow:hidden;padding:0 12px;width:100%;">
+					<p class="prod-det-ttl" id="addedProductWishlist"></p>
+					<p class="pop-r-txt pop-r-txt-add">A fost adaugat la favorite!</p>
+					<p class="pop-r-txt pop-r-txt-delete hide">A fost sters din favorite!</p>
+				</div>
+				<i class="fa fa-times close-pp" aria-hidden="true"></i>
+			</div>
+		</div>
+
+		
+					<script>
+	$(document).ready(function(){
+		
+		$.Gomag.inside('ListingPrice', function(target, data){
+					
+					if(!target.find('[data-block="ppum"]').length){	
+					
+							$(target).append(typeof data == 'object' && data.pret_per_u_m !== undefined ? ('<span data-block="ppum">' + '/ '+ data.pret_per_u_m.toLowerCase() + '</span>') : '');
+					}
+						 
+				}, '1'
+		);
+		$('[data-block="ListingPriceInside"]').css({
+			'display': 'inline-block',
+			'font-size': '13px'
+		})
+		$("div.price").each(function(i, data){
+					
+				if($(this).find('[data-block="ListingPrice"]')) {
+					if($(this).find('span.text-main')) {
+						var price = $(this).find('span.text-main').text();
+						
+						if(price != undefined && price != '') {
+							var initialPrice = price;
+							price = price.split(',');
+							if(price[1] != undefined){
+								var decimals = price[1].split(' ');
+							
+								var formatedPrice = price[0]+'<sup>'+decimals[0]+'</sup> '+decimals[1];
+							}
+							else
+							{
+								var formatedPrice = initialPrice;
+							}
+							$(this).closest('span').html(formatedPrice);
+						} else {
+							$(this).html('&nbsp;');
+						}
+					}
+				
+				}					
+				
+							
+			});
+			
+		
+			if($(".detail-price").find(".fPrice")) {
+				var productPrice = $(".detail-price .fPrice").html();
+				if(productPrice != undefined && productPrice != '') {
+					
+					price = productPrice.split(',');
+					if(price[1] != undefined){
+						var decimals = price[1].replace('Lei','');
+						
+						var formatedPrice = price[0]+'<sup>'+decimals+'</sup> Lei';
+					}
+					else 
+					{
+						price = productPrice
+					}
+					$('.detail-price .fPrice').html(formatedPrice);
+				}
+			}		
+				
+	})
+</script><script >
+	$(document).ready(function(){
+		$.Gomag.bind('User/Data/Response', function(event, data){
+			cart = data.cart;
+				if(cart != undefined){
+					$('.q-cart').html(cart.quantity);
+					if(parseFloat(cart.quantity) > 0)
+					{
+						$('.q-cart').removeClass('hide');
+					}
+					else
+					{
+						$('.q-cart').addClass('hide');
+					}
+					$('.cartPrice').html(cart.subtotal+' '+cart.currency);
+					$('.cartPrice').show();
+					$('.cart .fa-angle-down').show();
+					$('.cartProductCount').html(cart.itemCount);
+
+					$(document).trigger('Gomag.ajaxContentLoaded', [data]);
+				}
+		});
+		$.Gomag.bind('User/Data/Response', function(event, data){
+				 wishlistProductCount = data.wishlistProductCount;
+				 stockAlertProductsCount = data.stockAlertProductsCount;
+				 estimateShippingPriceForProduct = data.estimateShippingPriceForProduct;
+
+				 if(wishlistProductCount == undefined)
+				 {
+					wishlistProductCount = 0;
+				 }
+
+				 if(stockAlertProductsCount != undefined && parseInt(stockAlertProductsCount) > 0)
+				 {
+					wishlistProductCount = parseInt(wishlistProductCount) + parseInt(stockAlertProductsCount);
+				 }
+
+				 if(wishlistProductCount != undefined && $('.wishlist-header .-g-wishlist-product-count').length)
+				 {
+					$('span.-g-wishlist-product-count').html(wishlistProductCount);
+					if(parseInt(wishlistProductCount) > 0)
+					{
+						$('.wishlist-header').removeClass('hide');
+						$('.wishlist-header-m').removeClass('hide');
+						$('.-g-wishlist-product-count').removeClass('-g-hide');
+					}
+					else
+					{
+						$('.-g-wishlist-product-count').addClass('-g-hide');
+					}
+				 }
+
+				 if(estimateShippingPriceForProduct != undefined && estimateShippingPriceForProduct != '' && $('.__shippingPriceTemplate').length)
+				 {
+					if($('.__shippingPriceTemplate').is(':empty')){
+						$('.__shippingPriceTemplate').hide().html(estimateShippingPriceForProduct);
+						$('.__shippingPriceTemplate').slideDown(100);
+					} else {
+						$('.__shippingPriceTemplate').html(estimateShippingPriceForProduct);
+					}
+
+				 }
+
+			});
+	})
+</script>
+		
+
+		<script >
+
+			$(document).ready(function(){
+				$.Gomag.init({"env":[],"CID":"d20990d68074f937e1e6db663e021a46","widgetUrl":"https:\/\/www.verdeco.ro\/widget.js","ajaxLoadUserDataUrl":"https:\/\/www.verdeco.ro\/request\/data","ajaxLoadUserProductsUrl":"https:\/\/www.verdeco.ro\/request\/product?h=","cartSummaryUrl":"https:\/\/www.verdeco.ro\/cart-dropdown","orderCkeckoutValidUrl":"https:\/\/www.verdeco.ro\/finalizeaza-comanda?validateOnly=1","orderCkeckoutSaveUrl":"https:\/\/www.verdeco.ro\/finalizeaza-comanda?ajaxSave=1","orderCheckoutUrl":"https:\/\/www.verdeco.ro\/finalizeaza-comanda","orderUrl":"https:\/\/www.verdeco.ro\/cos-de-cumparaturi","addToCartUrl":"https:\/\/www.verdeco.ro\/cart-update","envData":{"products":{"6977":{"id":"6977","sku":"L78404","parent":"6977","name":"Tapet L78404 Reflets","price":"135.13","basePrice":"135.13","currency":"Lei","brand":"Ugepa","category":"Reflets","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-l78404-reflets-6977-752930.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/tapet-reflets-ugepa-efect-3d-caramida-piatra-lemn-beton\/tapet-l78404-natura-grafic-geometric-reflets-ugepa-verde-auriu.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"135.1300","special_price":"0.0000","final_price":"135.13","base_price":"135.13","list_price":"0.0000","price_no_vat":"111.6800","special_price_no_vat":"0.0000","final_price_no_vat":111.68,"base_price_no_vat":111.68,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"26.0210","special_price":"0.0000","final_price":"26.02","base_price":"26.02","list_price":"0.0000","price_no_vat":"21.5054","special_price_no_vat":"0.0000","final_price_no_vat":21.5,"base_price_no_vat":21.5,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"9217":{"id":"9217","sku":"372165","parent":"9217","name":"Tapet 37216-5 Greenery ","price":"219.53","basePrice":"219.53","currency":"Lei","brand":"A.S. Creation","category":"Tapet","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-37216-5-greenery-9217-877025.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/tapet\/tapet-37216-5-natura-floral-greenery-as-creation-verde-rosu.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"219.5300","special_price":"0.0000","final_price":"219.53","base_price":"219.53","list_price":"0.0000","price_no_vat":"181.4300","special_price_no_vat":"0.0000","final_price_no_vat":181.43,"base_price_no_vat":181.43,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"42.2732","special_price":"0.0000","final_price":"42.27","base_price":"42.27","list_price":"0.0000","price_no_vat":"34.9366","special_price_no_vat":"0.0000","final_price_no_vat":34.93,"base_price_no_vat":34.93,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"3280":{"id":"3280","sku":"343262","parent":"3280","name":"Tapet 34326-2 Versace 3","price":"732.00","basePrice":"732.00","currency":"Lei","brand":"A.S. Creation","category":"Versace","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/Tapet-clasic-negru-baroc-elegant-34326-2-Versace-3-3280-757596.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/versace\/tapet-34326-2-versace-3-3280.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"732.0000","special_price":"0.0000","final_price":"732.00","base_price":"732.00","list_price":"0.0000","price_no_vat":"604.9600","special_price_no_vat":"0.0000","final_price_no_vat":604.96,"base_price_no_vat":604.96,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"140.9557","special_price":"0.0000","final_price":"140.96","base_price":"140.96","list_price":"0.0000","price_no_vat":"116.4926","special_price_no_vat":"0.0000","final_price_no_vat":116.5,"base_price_no_vat":116.5,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"6234":{"id":"6234","sku":"376048","parent":"6234","name":"Tapet 376048 Siroc","price":"321.21","basePrice":"321.21","currency":"Lei","brand":"Eijffinger","category":"Siroc","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/376048-1-716258-6234-606907.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/tapet-siroc-eijffinger\/tapet-376048-natura-grafic-geometric-siroc-eijffinger-multicolor-maro.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"321.2100","special_price":"0.0000","final_price":"321.21","base_price":"321.21","list_price":"0.0000","price_no_vat":"265.4600","special_price_no_vat":"0.0000","final_price_no_vat":265.46,"base_price_no_vat":265.46,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"61.8530","special_price":"0.0000","final_price":"61.85","base_price":"61.85","list_price":"0.0000","price_no_vat":"51.1176","special_price_no_vat":"0.0000","final_price_no_vat":51.12,"base_price_no_vat":51.12,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"6430":{"id":"6430","sku":"336552","parent":"6430","name":"Tapet 3365-52 Bjorn","price":"198.18","basePrice":"198.18","currency":"Lei","brand":"A.S. Creation","category":"Bjorn","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/336552-1-499687-6430-521216.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/tapet-design-scandinav-bjorn-as-creation\/tapet-3365-52-modern-uni-bjorn-bej-bej.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"198.1800","special_price":"0.0000","final_price":"198.18","base_price":"198.18","list_price":"0.0000","price_no_vat":"163.7900","special_price_no_vat":"0.0000","final_price_no_vat":163.79,"base_price_no_vat":163.79,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"38.1620","special_price":"0.0000","final_price":"38.16","base_price":"38.16","list_price":"0.0000","price_no_vat":"31.5398","special_price_no_vat":"0.0000","final_price_no_vat":31.54,"base_price_no_vat":31.54,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"9113":{"id":"9113","sku":"374455","parent":"9113","name":"Tapet 3744-55 New Studio 2.0","price":"195.13","basePrice":"195.13","currency":"Lei","brand":"A.S. Creation","category":"New Studio 2.0","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-3744-55-new-studio-2-0-9113-74185.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/tapet-as-creation-colectia-new-studio-2\/tapet-3744-55-modern-uni-new-studio-as-creation-negru-negru.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"195.1300","special_price":"0.0000","final_price":"195.13","base_price":"195.13","list_price":"0.0000","price_no_vat":"161.2600","special_price_no_vat":"0.0000","final_price_no_vat":161.26,"base_price_no_vat":161.26,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"37.5747","special_price":"0.0000","final_price":"37.57","base_price":"37.57","list_price":"0.0000","price_no_vat":"31.0526","special_price_no_vat":"0.0000","final_price_no_vat":31.05,"base_price_no_vat":31.05,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"7294":{"id":"7294","sku":"363854","parent":"7294","name":"Tapet 36385-4 Hygge","price":"176.82","basePrice":"176.82","currency":"Lei","brand":"A.S. Creation","category":"Hygge","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-36385-4-hygge-7294-185436.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/hygge-tapet-modern-stil-design-scandinav\/tapet-36385-4-natura-floral-hygge-as-creation-verde-verde.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"176.8200","special_price":"0.0000","final_price":"176.82","base_price":"176.82","list_price":"0.0000","price_no_vat":"146.1300","special_price_no_vat":"0.0000","final_price_no_vat":146.13,"base_price_no_vat":146.13,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"34.0489","special_price":"0.0000","final_price":"34.05","base_price":"34.05","list_price":"0.0000","price_no_vat":"28.1392","special_price_no_vat":"0.0000","final_price_no_vat":28.14,"base_price_no_vat":28.14,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"10111":{"id":"10111","sku":"379004","parent":"10111","name":"Tapet 37900-4 Metropolitan Stories 2","price":"188.01","basePrice":"188.01","currency":"Lei","brand":"A.S. Creation","category":"Metropolitan Stories 2","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-37900-4-metropolitan-stories-2-10111-204739.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/tapet-as-creation-metropolitan-stories-2\/tapet-37900-4-modern-grafic-geometric-metropolitan-stories-2-negru-maro.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"188.0100","special_price":"0.0000","final_price":"188.01","base_price":"188.01","list_price":"0.0000","price_no_vat":"155.3800","special_price_no_vat":"0.0000","final_price_no_vat":155.38,"base_price_no_vat":155.38,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"36.2037","special_price":"0.0000","final_price":"36.20","base_price":"36.20","list_price":"0.0000","price_no_vat":"29.9204","special_price_no_vat":"0.0000","final_price_no_vat":29.92,"base_price_no_vat":29.92,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"10662":{"id":"10662","sku":"32713","parent":"10662","name":"Tapet decorativ 32713 New Spirit","price":"128.02","basePrice":"128.02","currency":"Lei","brand":"Marburg","category":"Tapet","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-decorativ-32713-new-spirit-10662-839047.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/tapet\/tapet-marburg-schoner-wohnen-32713-modern-uni-new-spirit-crem-bej.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"128.0200","special_price":"0.0000","final_price":"128.02","base_price":"128.02","list_price":"0.0000","price_no_vat":"105.8000","special_price_no_vat":"0.0000","final_price_no_vat":105.8,"base_price_no_vat":105.8,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"24.6518","special_price":"0.0000","final_price":"24.65","base_price":"24.65","list_price":"0.0000","price_no_vat":"20.3731","special_price_no_vat":"0.0000","final_price_no_vat":20.37,"base_price_no_vat":20.37,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"1534":{"id":"1534","sku":"962311","parent":"1534","name":"Tapet 962311 Versace 2","price":"732.00","basePrice":"732.00","currency":"Lei","brand":"A.S. Creation","category":"Versace","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-Versace-2-baroc-lux-gri-962311-1534-51903.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/versace\/tapet-962311-versace-2-1534.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"732.0000","special_price":"0.0000","final_price":"732.00","base_price":"732.00","list_price":"0.0000","price_no_vat":"604.9600","special_price_no_vat":"0.0000","final_price_no_vat":604.96,"base_price_no_vat":604.96,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"140.9557","special_price":"0.0000","final_price":"140.96","base_price":"140.96","list_price":"0.0000","price_no_vat":"116.4926","special_price_no_vat":"0.0000","final_price_no_vat":116.5,"base_price_no_vat":116.5,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"10319":{"id":"10319","sku":"375242","parent":"10319","name":"Tapet 37524-2 Daniel Hechter 6","price":"213.43","basePrice":"213.43","currency":"Lei","brand":"A.S. Creation","category":"Tapet","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-37524-2-daniel-hechter-6-10319-156333.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/tapet\/tapet-37524-2-modern-grafic-geometric-daniel-hechter-6-alb-gri.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"213.4300","special_price":"0.0000","final_price":"213.43","base_price":"213.43","list_price":"0.0000","price_no_vat":"176.3900","special_price_no_vat":"0.0000","final_price_no_vat":176.39,"base_price_no_vat":176.39,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"41.0986","special_price":"0.0000","final_price":"41.10","base_price":"41.10","list_price":"0.0000","price_no_vat":"33.9661","special_price_no_vat":"0.0000","final_price_no_vat":33.97,"base_price_no_vat":33.97,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"11865":{"id":"11865","sku":"387085","parent":"11865","name":"Tapet 38708-5 My Home. My Spa.","price":"225.00","basePrice":"225.00","currency":"Lei","brand":"A.S. Creation","category":"My Home. My Spa.","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-38708-5-my-home-my-spa-351714.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/tapet-my-home-my-spa-as-creation\/tapet-38708-5-clasic-baroc-elegant-my-home-my-spa-gri-negru.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"225.0000","special_price":"0.0000","final_price":"225.00","base_price":"225.00","list_price":"0.0000","price_no_vat":"185.9500","special_price_no_vat":"0.0000","final_price_no_vat":185.95,"base_price_no_vat":185.95,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"43.3266","special_price":"0.0000","final_price":"43.33","base_price":"43.33","list_price":"0.0000","price_no_vat":"35.8070","special_price_no_vat":"0.0000","final_price_no_vat":35.81,"base_price_no_vat":35.81,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"11630":{"id":"11630","sku":"377566","parent":"11630","name":"Tapet 37756-6 Floral Impression","price":"309.11","basePrice":"309.11","currency":"Lei","brand":"A.S. Creation","category":"Tapet","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-37756-6-floral-impression-367054.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/tapet\/tapet-37756-6-natura-floral-floral-impression-alb-mov.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"309.1100","special_price":"0.0000","final_price":"309.11","base_price":"309.11","list_price":"0.0000","price_no_vat":"255.4600","special_price_no_vat":"0.0000","final_price_no_vat":255.46,"base_price_no_vat":255.46,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"59.5230","special_price":"0.0000","final_price":"59.52","base_price":"59.52","list_price":"0.0000","price_no_vat":"49.1920","special_price_no_vat":"0.0000","final_price_no_vat":49.19,"base_price_no_vat":49.19,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"9608":{"id":"9608","sku":"374293","parent":"9608","name":"Tapet 37429-3 Elements","price":"193.19","basePrice":"193.19","currency":"Lei","brand":"A.S. Creation","category":"Elements","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-37429-3-elements-9608-685139.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/tapet-elements-lemn-piatra-caramida-beton\/tapet-37429-3-natura-imitatii-animal-print-elements-as-creation-alb-gri.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"193.1900","special_price":"0.0000","final_price":"193.19","base_price":"193.19","list_price":"0.0000","price_no_vat":"159.6600","special_price_no_vat":"0.0000","final_price_no_vat":159.66,"base_price_no_vat":159.66,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"37.2011","special_price":"0.0000","final_price":"37.20","base_price":"37.20","list_price":"0.0000","price_no_vat":"30.7445","special_price_no_vat":"0.0000","final_price_no_vat":30.74,"base_price_no_vat":30.74,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""},"7315":{"id":"7315","sku":"363821","parent":"7315","name":"Tapet 36382-1 Hygge","price":"176.82","basePrice":"176.82","currency":"Lei","brand":"A.S. Creation","category":"Hygge","image":"https:\/\/gomagcdn.ro\/domains\/verdeco.ro\/files\/product\/medium\/tapet-36382-1-hygge-7315-682039.jpg","hasImage":1,"stepQuantity":"1.00","realStock":0,"stock":9223372036854775807,"stockStatus":"order","orderMinimQuantity":"1","url":"https:\/\/www.verdeco.ro\/hygge-tapet-modern-stil-design-scandinav\/tapet-36382-1-modern-grafic-geometric-hygge-as-creation-roz-roz.html","vat":"21","packages":[],"versions":null,"version":[],"currencies":{"Lei":{"currency":"Lei","key":"RON","multiplier":"1","price":"176.8200","special_price":"0.0000","final_price":"176.82","base_price":"176.82","list_price":"0.0000","price_no_vat":"146.1300","special_price_no_vat":"0.0000","final_price_no_vat":146.13,"base_price_no_vat":146.13,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"},"Euro":{"currency":"Euro","key":"EUR","multiplier":"5.19312","price":"34.0489","special_price":"0.0000","final_price":"34.05","base_price":"34.05","list_price":"0.0000","price_no_vat":"28.1392","special_price_no_vat":"0.0000","final_price_no_vat":28.14,"base_price_no_vat":28.14,"list_price_no_vat":"0.0000","price_with_ecotax":"0.0000"}},"priceListQuantity":[],"hasConfigurationOptions":0,"productConfigurationsStockData":[],"basePriceWithVatCurrency":"","finalPriceWithVatCurrency":""}}},"ajaxLoadProductDetails":"https:\/\/www.verdeco.ro\/product\/ajax\/details","productsStockDecimals":"2","theme":{"GFX":"https:\/\/www.verdeco.ro\/themes\/fashion\/gfx\/"},"orderSummaryUrl":"https:\/\/www.verdeco.ro\/checkout-summary","secureForms":{"isSecure":false,"name":"c80ca904c2dd285a5d441e4946429e7f","value":"5efd9ceda44beda2a1d5b0ea9db9e39e"},"settings":{"doNotSelectVersion":false,"displayCategoryIconInMenu":false,"asyncClick":null,"ajaxCheckoutCheck":false,"saveOrderUsingAjax":false,"orderCheckoutEmailNotRequired":false,"orderCheckoutPhoneNotRequired":false,"phoneLengthsByCountry":{"176":"10,11"},"displayPRPAsBasePrice":"0","discountDisplayType":"percent","discountDisplayRoundPrecision":"","addToCartPopupDisplayTime":"5","countdownTimeUnit":{"timeUnitDays":"d","timeUnitHours":"h","timeUnitMinutes":"m","timeUnitSeconds":"s"},"countdownTimeUnitIncludeDays":false,"countdownTimeUnitExcludeSeconds":false,"reloadPageOnVersionClick":false,"ignoreAjaxCachereBuild":false,"productPriceDisplayFilter":""},"addToCartPopup":"{\"blocking\":false,\"template\":\"\\n<div id=\\\"-g-addtocart-popup-default\\\">\\n<div style=\\\"display:none;\\\" class=\\\"add2cart catListPP\\\"><\\\/div>\\n<div class=\\\"clear catListPP\\\"><\\\/div>\\n<div class=\\\"add2cart-pp catListPP\\\">\\n\\t<div class=\\\"-g-addtocart-popup-holder\\\" style=\\\"display: flex;justify-content: space-between;flex-direction: row;align-items: center;\\\">\\n\\t\\t<i class=\\\"fa fa-shopping-bag -g-shopping-bag\\\" aria-hidden=\\\"true\\\"><\\\/i>\\n\\t\\t<div style=\\\"overflow: hidden;padding:0 15px;width:100%;text-align: left;\\\">\\n\\t\\t\\t\\t\\t\\t\\t<p class=\\\"prod-det-ttl\\\" id=\\\"addedProduct\\\"><\\\/p>\\n\\t\\t\\t\\t<p class=\\\"pop-r-txt\\\">A fost adaugat in cosul de cumparaturi!<\\\/p>\\n\\t\\t\\t\\t\\t<\\\/div>\\n\\t\\t<i class=\\\"fa fa-times close-pp\\\" aria-hidden=\\\"true\\\"><\\\/i>\\n\\t<\\\/div>\\n\\n\\t<div class=\\\"pop-r-txt pop-r-txt-cart-changed\\\" style=\\\"color: #e96f56;\\\"><\\\/div>\\n\\n\\t<div style=\\\"display: flex;justify-content: space-between;align-items: center;margin: 12px 0 3px;gap: 6px;\\\">\\n\\t\\t<a href=\\\"https:\\\/\\\/www.verdeco.ro\\\/cos-de-cumparaturi\\\" class=\\\"btn  fl\\\">Vezi cosul<\\\/a>\\n\\t\\t<a href=\\\"https:\\\/\\\/www.verdeco.ro\\\/finalizeaza-comanda\\\" class=\\\"btn btn-cmd fr\\\">Finalizeaza Comanda<\\\/a>\\n\\t<\\\/div>\\n<\\\/div> <!-- end add to cart popup -->\\n\\n<script>\\n\\t$(document).ready(function(){\\n\\t\\t$('.close-pp').on('click', function(){\\n\\t\\t\\t$('.add2cart-pp').removeClass('visible');\\n\\t\\t});\\n\\t});\\n<\\\/script>\\n\\n<\\\/div>\\n\",\"emptyCustom\":\"\\n<style><\\\/style>\\n<style><\\\/style>\\n<div class=\\\"widget-popup widget -g-addtocart-popup-custom\\\">\\n\\t<style>\\n\\t\\t.fancybox-skin {overflow: hidden;}\\n\\t\\t.fancybox-content {padding: 0;}\\n\\n\\t\\t.widget-content{max-width: 570px;margin: auto;padding:20px;}\\n\\t\\t.widget-content .gomagPopup-text-before, .widget-content .gomagPopup-text-after{font-weight: 300;font-size: 15px;line-height: 1.4;text-align: left;padding:20px 15px 15px;}\\n\\t\\t.widget-content .gomagPopup-text-after{font-weight: 600;font-size: 18px;color: #0860a7;max-width: 570px;margin: 0;}\\n\\t\\t.widget-content h1{font-weight: 300;font-size: 28px;margin-bottom:20px;}\\n\\t\\t.widget-content p{margin-bottom:10px;}\\n\\t\\t.widget-content .add-cart-slider-popup .default-slider .container-h{padding:0;}\\n\\t\\t.widget-custom-button-holder {display: flex;flex-wrap: wrap;align-items: center;justify-content: center;gap: 6px;padding-top: 10px;cursor: auto; text-align: center;}\\n\\n\\t\\t@media screen and (max-width: 400px){\\n\\t\\t\\t.widget-custom-button-holder .btn{width:100%;margin-bottom:0;}\\n\\t\\t}\\n\\t<\\\/style>\\n\\t<div class=\\\"widget-content\\\" style=\\\"\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t\\\"\\n\\t\\t\\t>\\n\\t\\t<div class=\\\"gomagPopup-text-before Gomag-PopUp pop-r-txt\\\" style=\\\"cursor: auto; text-align: center;\\\">\\n\\t\\t\\t<h1 style=\\\"font-size:22px;text-align:center;\\\"><strong>{{productName}}<\\\/strong><\\\/h1>\\n\\n\\t\\t\\t<p style=\\\"font-size:16px;text-align:center;\\\">Produsul a fost adaugat cu succes in cosul tau de cumparaturi!<\\\/p>\\n\\n\\t\\t\\t\\n\\t\\t<\\\/div>\\n\\t\\t\\n\\t\\t<div class=\\\"widget-custom-button-holder\\\">\\n\\t\\t\\t<a href=\\\"https:\\\/\\\/www.verdeco.ro\\\/cos-de-cumparaturi\\\" class=\\\"btn \\\">Vezi cosul<\\\/a>\\n\\t\\t\\t<a href=\\\"https:\\\/\\\/www.verdeco.ro\\\/finalizeaza-comanda\\\" class=\\\"btn btn-cmd\\\">Finalizeaza Comanda<\\\/a>\\n\\t\\t\\t<div class=\\\"clear\\\"><\\\/div>\\n\\t\\t<\\\/div>\\n\\t\\t\\n\\t\\t<div class=\\\"add-cart-slider-popup -g-addtocart-custom-products\\\">\\n\\t\\t\\t\\n\\t\\t<\\\/div>\\n\\t\\t<div class=\\\"clear\\\"><\\\/div>\\n\\t<\\\/div>\\n\\n\\t<script>\\n\\t\\t$(document).ready(function(){\\n\\t\\t\\tvar productBox_item = $('.widget-content .product-box').length\\n\\t\\t\\t\\tproductBox_item <= 2 ? $('.widget-content').css('max-width', '570px') : $('.widget-content').css('max-width', '840px');\\n\\t\\t\\tvar elementExists = $('.slide-item-component').data('owlCarousel');\\n\\t\\t\\tif(elementExists !== undefined)\\n\\t\\t\\t{\\n\\t\\t\\t\\t$('.slide-item-component').data('owlCarousel').destroy();\\n\\t\\t\\t}\\n\\t\\t\\t\\n\\t\\t\\t$('.slide-item-component').owlCarousel({\\n\\t\\t\\t\\titems: (productBox_item <= 2 ? 2 : 3),\\n\\t\\t\\t\\tnavigation:true,\\n\\t\\t\\t\\tpagination:false,\\n\\t\\t\\t\\titemsCustom : [\\n\\t\\t\\t\\t\\t[0,2],[479,2],[768, 2],\\n\\t\\t\\t\\t\\t[979, (productBox_item <= 2 ? 2 : 3)],\\n\\t\\t\\t\\t\\t[1199, (productBox_item <= 2 ? 2 : 3)]\\n\\t\\t\\t\\t]\\n\\t\\t\\t});\\n\\t\\t\\t\\\/*\\n\\t\\t\\t$.Gomag.bind('Product\\\/Add\\\/To\\\/Cart\\\/After', function addToCartSecondaryPopup(response, data){\\t\\n\\t\\t\\t\\t$('.-g-product-list-add-cart-'+data.product.id).text('Adaugat in cos').removeClass('btn-cmd');\\n\\t\\t\\t});\\n\\t\\t\\t*\\\/\\n\\t\\t});\\n\\t<\\\/script>\\n<\\\/div>\",\"simpleTemplateLimitReached\":\"\\n<div id=\\\"-g-addtocart-popup-default-limit-reached\\\">\\n<div style=\\\"display:none;\\\" class=\\\"add2cart catListPP\\\"><\\\/div>\\n<div class=\\\"clear catListPP\\\"><\\\/div>\\n<div class=\\\"add2cart-pp catListPP\\\">\\n\\t<div style=\\\"display: flex;justify-content: space-between;flex-direction: row;align-items: center;\\\">\\n\\t\\t<i class=\\\"fa fa-shopping-bag\\\" aria-hidden=\\\"true\\\"><\\\/i>\\n\\t\\t<div style=\\\"overflow: hidden;padding:0 15px;width:100%;text-align: left;\\\">\\n\\t\\t\\t<p class=\\\"prod-det-ttl\\\">Cosul tau este plin!<\\\/p>\\n\\t\\t\\t<p class=\\\"pop-r-txt\\\">Finalizeaza comanda cu produsele din cos!<\\\/p>\\n\\t\\t<\\\/div>\\n\\t\\t<i class=\\\"fa fa-times close-pp\\\" aria-hidden=\\\"true\\\"><\\\/i>\\n\\t<\\\/div>\\n\\n\\t<div style=\\\"display: flex;justify-content: space-between;flex-direction: row;align-items: center;margin: 12px 0 3px;\\\">\\n\\t\\t<a href=\\\"https:\\\/\\\/www.verdeco.ro\\\/cos-de-cumparaturi\\\" class=\\\"btn  fl\\\">Vezi cosul<\\\/a>\\n\\t\\t<a href=\\\"https:\\\/\\\/www.verdeco.ro\\\/finalizeaza-comanda\\\" class=\\\"btn btn-cmd fr\\\">Finalizeaza Comanda<\\\/a>\\n\\t<\\\/div>\\n<\\\/div> <!-- end add to cart popup -->\\n\\n<script>\\n\\t$(document).ready(function(){\\n\\t\\t$('.close-pp').on('click', function(){\\n\\t\\t\\t$('.add2cart-pp').removeClass('visible');\\n\\t\\t});\\n\\t});\\n<\\\/script>\\n\\n<\\\/div>\\n\",\"simpleTemplateProductOutOfStock\":\"\\n<div id=\\\"-g-addtocart-popup-default-product-out-of-stock\\\">\\n<div style=\\\"display:none;\\\" class=\\\"add2cart catListPP\\\"><\\\/div>\\n<div class=\\\"clear catListPP\\\"><\\\/div>\\n<div class=\\\"add2cart-pp catListPP\\\" style=\\\"background-color: #e96f56;padding: 20px;\\\">\\n\\t<div style=\\\"display: flex;justify-content: space-between;flex-direction: row;align-items: center;\\\">\\n\\t\\t<i class=\\\"fa fa-shopping-bag\\\" aria-hidden=\\\"true\\\" style=\\\"color: #fff;\\\"><\\\/i>\\n\\t\\t<div  style=\\\"color: #fff;padding: 10px;\\\">\\n\\t\\t\\t<p class=\\\"prod-det-ttl\\\" style=\\\"color: #fff;\\\">Ne pare rau, stoc insuficient!<\\\/p>\\n\\t\\t\\t\\n\\t\\t\\t<p class=\\\"pop-r-txt\\\" style=\\\"color: #fff;\\\">Produsul nu a fost adaugat in cosul de cumparaturi!<\\\/p>\\n\\t\\t<\\\/div>\\n\\t\\t<i class=\\\"fa fa-times close-pp\\\" aria-hidden=\\\"true\\\" style=\\\"color: #fff;\\\"><\\\/i>\\n\\t<\\\/div>\\n<\\\/div> <!-- end add to cart popup -->\\n<script>\\n\\t$(document).ready(function(){\\n\\t\\t$('.close-pp').on('click', function(){\\n\\t\\t\\t$('.add2cart-pp').removeClass('visible');\\n\\t\\t});\\n\\t});\\n<\\\/script>\\n<\\\/div>\"}","ajaxComponentsReload":"https:\/\/www.verdeco.ro\/components.js","languages":{"ro":{"id":"4","name":"Romana","key":"ro","data":"Ro_ro","selected":true,"url":null,"redirectUrl":"https:\/\/www.verdeco.ro"}},"currencies":{"1":{"name":"Lei","currency":"RON","id":1,"url":"https:\/\/www.verdeco.ro\/404.shtml?sc=1","selected":1}},"mainDomain":"https:\/\/www.verdeco.ro","checkPhoneNumberUrl":"https:\/\/www.verdeco.ro\/ajax-check-phone-number","cookiePolicyCookieName":"g_c_consent"});
+				setTimeout(function(){$.Gomag.displayPricesBox()}, 2000);
+			})
+			let libraryValues = {
+				orderSummaryUrl : "https://www.verdeco.ro/checkout-summary"
+			}
+		</script>
+		<script src="https://gomagcdn.ro/themes/fashion/js/library.js?v=101181346-4.271" data-values='{"orderSummaryUrl": "https://www.verdeco.ro/checkout-summary"}'></script>
+		
+		<script>
+			/*$(document).ready(function(){
+				document.getElementsByTagName('body')[0].classList.remove('loading');
+			});*/
+		</script>
+		<!-- ra: 82.76.227.61-->
+	</body>
+
+</html>
