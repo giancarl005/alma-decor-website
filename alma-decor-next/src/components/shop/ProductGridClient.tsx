@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import ProductCard from './ProductCard';
+import { API_BASE } from '@/lib/api';
 
 interface ProductGridClientProps {
   categorySlug?: string;
@@ -42,9 +43,7 @@ const ProductGridClient: React.FC<ProductGridClientProps> = ({
         if (currentMaxPrice) url += `&max_price=${currentMaxPrice}`;
         
         // On local dev, we might need the full URL if we're running on port 3000
-        const finalUrl = typeof window !== 'undefined' && window.location.hostname === 'localhost' 
-          ? `http://127.0.0.1/Alma%20Decor%20Website${url}`
-          : url;
+        const finalUrl = `${API_BASE}${url}`;
 
         const res = await fetch(finalUrl);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);

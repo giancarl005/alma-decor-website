@@ -3,8 +3,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
-const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
-const DOMAIN = 'https://almadecor.ro';
+import { API_BASE, DOMAIN } from '@/lib/api';
 
 async function getPost(slug: string) {
   try {
@@ -73,11 +72,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     if (!url) return '';
     if (url.startsWith('http')) return url;
     const path = url.startsWith('/') ? url : `/${url}`;
-    
-    if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
-      return `http://127.0.0.1/Alma%20Decor%20Website${path}`;
-    }
-    return path;
+    return `${API_BASE}${path}`;
   };
 
   // Generate Schema.org JSON-LD

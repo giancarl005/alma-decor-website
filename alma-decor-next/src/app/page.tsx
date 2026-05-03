@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 async function getFeaturedProducts() {
   try {
-    const res = await fetch('http://127.0.0.1/Alma%20Decor%20Website/api/produse.php?limit=4', { 
+    const res = await fetch(`${API_BASE}/api/produse.php?limit=4`, { 
       cache: 'no-store',
       headers: {
         'Accept': 'application/json',
@@ -33,7 +33,7 @@ async function getFeaturedProducts() {
 
 async function getCategories() {
   try {
-    const res = await fetch('http://127.0.0.1/Alma%20Decor%20Website/api/categorii.php', { cache: 'no-store' });
+    const res = await fetch(`${API_BASE}/api/categorii.php`, { cache: 'no-store' });
     if (!res.ok) return [];
     const data = await res.json();
     // Return exactly 4 active categories for one row
@@ -148,7 +148,7 @@ export default async function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {realCategories.map((cat: any, i: number) => {
               const catImage = cat.image 
-                ? (cat.image.startsWith('http') ? cat.image : `http://127.0.0.1/Alma%20Decor%20Website/${cat.image.replace(/^\//, '')}`)
+                ? (cat.image.startsWith('http') ? cat.image : `${API_BASE}/${cat.image.replace(/^\//, '')}`)
                 : `https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format,compress&fit=crop`;
               
               return (

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { API_BASE } from '@/lib/api';
 
 interface ProductGalleryProps {
   images: string[];
@@ -11,11 +12,7 @@ const getFullUrl = (url: string) => {
   if (!url) return '';
   if (url.startsWith('http')) return url;
   const path = url.startsWith('/') ? url : `/${url}`;
-  
-  if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
-    return `http://127.0.0.1/Alma%20Decor%20Website${path}`;
-  }
-  return path;
+  return `${API_BASE}${path}`;
 };
 
 const ProductGallery: React.FC<ProductGalleryProps> = ({ images, discountPercent }) => {

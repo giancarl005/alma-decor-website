@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import { useCart } from '@/contexts/CartContext';
 import { TrashIcon, ShieldCheckIcon, CheckIcon } from '@/components/ui/Icon';
 
-const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
+import { API_BASE } from '@/lib/api';
 
 export default function CheckoutPage() {
   const { cart, cartTotal, clearCart } = useCart();

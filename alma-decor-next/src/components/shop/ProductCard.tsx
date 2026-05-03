@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useCart } from '@/contexts/CartContext';
+import { API_BASE } from '@/lib/api';
 
 interface ProductCardProps {
   product: {
@@ -21,11 +22,7 @@ const getFullUrl = (url: string | null) => {
   if (!url) return 'https://via.placeholder.com/400x500?text=Alma+Decor';
   if (url.startsWith('http')) return url;
   const path = url.startsWith('/') ? url : `/${url}`;
-  
-  if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
-    return `http://127.0.0.1/Alma%20Decor%20Website${path}`;
-  }
-  return path;
+  return `${API_BASE}${path}`;
 };
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import ProductDetailsClient from '@/components/shop/ProductDetailsClient';
 
-const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
+import { API_BASE, DOMAIN } from '@/lib/api';
 
 async function getProduct(slug: string) {
   try {
@@ -67,7 +67,7 @@ async function getSimilarProducts(categorySlug: string) {
   }
 }
 
-const DOMAIN = 'https://almadecor.ro';
+
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;

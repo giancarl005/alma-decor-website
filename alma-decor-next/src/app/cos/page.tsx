@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { useCart } from '@/contexts/CartContext';
 import { TrashIcon } from '@/components/ui/Icon';
 
-const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
+import { API_BASE } from '@/lib/api';
 
 export default function CartPage() {
   const { cart, removeFromCart, updateQuantity, cartTotal } = useCart();

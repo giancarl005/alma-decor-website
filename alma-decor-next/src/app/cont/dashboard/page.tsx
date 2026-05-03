@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
-const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
+import { API_BASE } from '@/lib/api';
 
 export default function UserDashboardPage() {
   const [data, setData] = useState<any>(null);
