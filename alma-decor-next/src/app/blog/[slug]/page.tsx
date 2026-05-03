@@ -19,6 +19,22 @@ async function getPost(slug: string) {
   }
 }
 
+export async function generateStaticParams() {
+  try {
+    const res = await fetch(`${API_BASE}/api/blog.php`, { cache: 'no-store' });
+    if (!res.ok) return [];
+    const data = await res.json();
+    if (data.status !== 'success') return [];
+    
+    return data.data.map((post: any) => ({
+      slug: post.slug,
+    }));
+  } catch (error) {
+    console.error('Error generating static params for blog:', error);
+    return [];
+  }
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const post = await getPost(slug);

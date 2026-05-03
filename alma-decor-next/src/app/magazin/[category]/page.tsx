@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Link from 'next/link';
-import ProductCard from '@/components/shop/ProductCard';
+import ProductGridClient from '@/components/shop/ProductGridClient';
 import { notFound } from 'next/navigation';
 
 const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
@@ -21,6 +21,22 @@ async function getCategory(slug: string) {
   }
 }
 
+export async function generateStaticParams() {
+  try {
+    const res = await fetch(`${API_BASE}/api/categorii.php`, { cache: 'no-store' });
+    if (!res.ok) return [];
+    const data = await res.json();
+    if (data.status !== 'success') return [];
+    
+    return data.data.map((category: any) => ({
+      category: category.slug,
+    }));
+  } catch (error) {
+    console.error('Error generating static params for categories:', error);
+    return [];
+  }
+}
+
 async function getCategories() {
   try {
     const res = await fetch(`${API_BASE}/api/categorii.php`, {
@@ -34,22 +50,7 @@ async function getCategories() {
   }
 }
 
-async function getProducts(categorySlug: string, page = 1, limit = 30, sort = 'newest', minPrice?: string, maxPrice?: string) {
-  try {
-    let url = `${API_BASE}/api/produse.php?categorie=${categorySlug}&page=${page}&limit=${limit}&sort=${sort}`;
-    if (minPrice) url += `&min_price=${minPrice}`;
-    if (maxPrice) url += `&max_price=${maxPrice}`;
-    
-    const res = await fetch(url, {
-      cache: 'no-store'
-    });
-    if (!res.ok) return { data: [], total_count: 0, total_pages: 0 };
-    const data = await res.json();
-    return data.status === 'success' ? data : { data: [], total_count: 0, total_pages: 0 };
-  } catch (error) {
-    return { data: [], total_count: 0, total_pages: 0 };
-  }
-}
+
 
 const getFullImageUrl = (url: string) => {
   if (!url) return '';
@@ -59,31 +60,18 @@ const getFullImageUrl = (url: string) => {
 }
 
 export default async function CategoryPage({ 
-  params,
-  searchParams 
+  params 
 }: { 
-  params: Promise<{ category: string }>;
-  searchParams: Promise<{ page?: string; limit?: string; sort?: string; min_price?: string; max_price?: string }>;
+  params: Promise<{ category: string }>
 }) {
   const { category: categorySlug } = await params;
-  const sParams = await searchParams;
-  
-  const currentPage = parseInt(sParams.page || '1');
-  const currentLimit = parseInt(sParams.limit || '30');
-  const currentSort = sParams.sort || 'newest';
-
-  const currentMinPrice = sParams.min_price || '';
-  const currentMaxPrice = sParams.max_price || '';
   
   const category = await getCategory(categorySlug);
   if (!category) {
     notFound();
   }
 
-  const productsData = await getProducts(categorySlug, currentPage, currentLimit, currentSort, currentMinPrice, currentMaxPrice);
   const categories = await getCategories();
-  const products = productsData.data || [];
-  const totalPages = productsData.total_pages || 1;
 
   return (
     <main className="min-h-screen bg-white dark:bg-[#0F1115] pt-32 pb-24">
@@ -96,7 +84,7 @@ export default async function CategoryPage({
                 {(() => {
                     const imgPath = (category.image && category.image.length > 3) 
                         ? category.image 
-                        : (category.representative_image || (products[0]?.primary_image));
+                        : category.representative_image;
                     
                     if (imgPath) {
                         return (
@@ -160,18 +148,6 @@ export default async function CategoryPage({
                             })()}
                         </p>
                     )}
-                </div>
-
-                <div className="pt-4 flex items-center gap-6">
-                    <div className="flex flex-col">
-                        <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Produse</span>
-                        <span className="text-2xl font-bold text-gray-900 dark:text-white">{productsData.total_count || 0}</span>
-                    </div>
-                    <div className="w-px h-10 bg-gray-100 dark:bg-white/10" />
-                    <div className="flex flex-col">
-                        <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Calitate</span>
-                        <span className="text-sm font-bold text-emerald-500 uppercase tracking-widest">Premium / Certificată</span>
-                    </div>
                 </div>
             </div>
           </div>
@@ -256,103 +232,30 @@ export default async function CategoryPage({
                 Preț (RON)
               </h3>
               <ul className="space-y-3">
-                <li>
-                  <Link 
-                    href={`/magazin/${categorySlug}?page=1&limit=${currentLimit}&sort=${currentSort}`}
-                    className="flex items-center gap-3 group"
-                  >
-                    <div className={`w-4 h-4 rounded border ${!currentMinPrice && !currentMaxPrice ? 'bg-brand-yellow border-brand-yellow' : 'border-gray-200 dark:border-white/10'} transition-colors`} />
-                    <span className={`text-sm ${!currentMinPrice && !currentMaxPrice ? 'text-gray-900 dark:text-white font-bold' : 'text-gray-500 dark:text-gray-400'} group-hover:text-brand-yellow transition-colors`}>Toate prețurile</span>
-                  </Link>
-                </li>
                 {[
                   { label: 'Sub 200 RON', min: '0', max: '200' },
                   { label: '200 - 500 RON', min: '200', max: '500' },
                   { label: 'Peste 500 RON', min: '500', max: '10000' }
-                ].map((range) => {
-                  const isActive = currentMinPrice === range.min && currentMaxPrice === range.max;
-                  return (
-                    <li key={range.label}>
-                      <Link 
-                        href={`/magazin/${categorySlug}?page=1&limit=${currentLimit}&sort=${currentSort}&min_price=${range.min}&max_price=${range.max}`}
-                        className="flex items-center gap-3 group"
-                      >
-                        <div className={`w-4 h-4 rounded border ${isActive ? 'bg-brand-yellow border-brand-yellow' : 'border-gray-200 dark:border-white/10'} transition-colors`} />
-                        <span className={`text-sm ${isActive ? 'text-gray-900 dark:text-white font-bold' : 'text-gray-500 dark:text-gray-400'} group-hover:text-brand-yellow transition-colors`}>{range.label}</span>
-                      </Link>
-                    </li>
-                  )
-                })}
+                ].map((range) => (
+                  <li key={range.label}>
+                    <Link 
+                      href={`/magazin/${categorySlug}?min_price=${range.min}&max_price=${range.max}`}
+                      className="flex items-center gap-3 group"
+                    >
+                      <div className="w-4 h-4 rounded border border-gray-200 dark:border-white/10 transition-colors" />
+                      <span className="text-sm text-gray-500 dark:text-gray-400 group-hover:text-brand-yellow transition-colors">{range.label}</span>
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </aside>
 
           {/* Products Grid Container */}
           <div className="flex-1">
-            <div className="flex flex-col md:flex-row justify-between items-center mb-8 border-b border-gray-100 dark:border-white/5 pb-4 gap-4">
-              <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">
-                Se afișează <span className="text-gray-900 dark:text-white">{products.length} din {productsData.total_count || 0} produse</span>
-              </p>
-              
-              <div className="flex items-center gap-8">
-                {/* Items per page */}
-                <div className="flex items-center gap-3">
-                  <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Afișează:</span>
-                  <div className="flex gap-2">
-                    {[30, 60, 90].map((num) => (
-                      <Link 
-                        key={num}
-                        href={`/magazin/${categorySlug}?page=1&limit=${num}&sort=${currentSort}`}
-                        className={`text-[10px] font-bold uppercase tracking-widest transition-colors ${currentLimit === num ? 'text-brand-yellow' : 'text-gray-400 hover:text-gray-900 dark:hover:text-white'}`}
-                      >
-                        {num}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Sort */}
-                <div className="flex items-center gap-3">
-                  <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Sortează după:</span>
-                  <select 
-                    className="bg-transparent text-[10px] font-bold text-gray-900 dark:text-white uppercase tracking-widest focus:outline-none cursor-pointer"
-                    defaultValue={currentSort}
-                  >
-                    <option value="newest">Noutăți</option>
-                    <option value="price_asc">Preț: Mic la Mare</option>
-                    <option value="price_desc">Preț: Mare la Mic</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-
-            {products.length > 0 ? (
-              <div className="grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-2">
-                {products.map((product: any) => (
-                  <ProductCard key={product.id} product={product} />
-                ))}
-              </div>
-            ) : (
-              <div className="py-24 text-center space-y-4">
-                <p className="text-gray-400 font-medium">Nu am găsit produse în această categorie.</p>
-                <Link href="/magazin" className="inline-block text-brand-yellow font-bold uppercase tracking-widest text-[10px] border-b border-brand-yellow pb-1 hover:text-gray-900 dark:hover:text-white hover:border-gray-900 dark:hover:border-white transition-all">
-                  Vezi tot catalogul
-                </Link>
-              </div>
-            )}
-            
-            {/* Load More Button */}
-            {currentPage * currentLimit < (productsData.total_count || 0) && (
-              <div className="mt-16 flex justify-center">
-                <Link 
-                  href={`/magazin/${categorySlug}?page=1&limit=${currentLimit + 30}&sort=${currentSort}`}
-                  scroll={false}
-                  className="px-12 py-4 bg-gray-900 dark:bg-brand-yellow text-white dark:text-gray-900 rounded-xl font-bold text-[10px] uppercase tracking-[0.2em] shadow-xl hover:scale-105 transition-all"
-                >
-                  Afișează mai multe produse
-                </Link>
-              </div>
-            )}
+            <Suspense fallback={<div className="animate-pulse bg-gray-100 h-96 rounded-3xl" />}>
+              <ProductGridClient categorySlug={categorySlug} initialLimit={30} />
+            </Suspense>
 
             {/* Bottom Description Section */}
             {category.description_bottom && (

@@ -36,6 +36,22 @@ async function getProduct(slug: string) {
   }
 }
 
+export async function generateStaticParams() {
+  try {
+    const res = await fetch(`${API_BASE}/api/produse.php?limit=2000`, { cache: 'no-store' });
+    if (!res.ok) return [];
+    const data = await res.json();
+    if (data.status !== 'success') return [];
+    
+    return data.data.map((product: any) => ({
+      slug: product.slug,
+    }));
+  } catch (error) {
+    console.error('Error generating static params for products:', error);
+    return [];
+  }
+}
+
 async function getSimilarProducts(categorySlug: string) {
   if (!categorySlug) return [];
   try {
