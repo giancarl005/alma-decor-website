@@ -3,7 +3,8 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
-const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
+const API_BASE = 'https://almadecor.ro';
+const DOMAIN = 'https://almadecor.ro';
 
 async function getPost(slug: string) {
   try {
@@ -55,7 +56,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: 'article',
       publishedTime: post.created_at,
       authors: [post.author],
-      images: post.featured_image ? [post.featured_image] : [],
+      images: post.featured_image ? [`${DOMAIN}/${post.featured_image.startsWith('/') ? post.featured_image.slice(1) : post.featured_image}`] : [],
     },
   };
 }
@@ -70,7 +71,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   const getFullImageUrl = (url: string) => {
     if (!url) return '';
-    return url.startsWith('http') ? url : `${API_BASE}${url}`;
+    if (url.startsWith('http')) return url;
+    const path = url.startsWith('/') ? url : `/${url}`;
+    return path;
   };
 
   // Generate Schema.org JSON-LD

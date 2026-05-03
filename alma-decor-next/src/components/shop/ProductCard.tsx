@@ -17,7 +17,12 @@ interface ProductCardProps {
   };
 }
 
-const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
+const getFullUrl = (url: string | null) => {
+  if (!url) return 'https://via.placeholder.com/400x500?text=Alma+Decor';
+  if (url.startsWith('http')) return url;
+  const path = url.startsWith('/') ? url : `/${url}`;
+  return path;
+};
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { addToCart } = useCart();
@@ -32,13 +37,6 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     addToCart(product, 1);
     setAdded(true);
     setTimeout(() => setAdded(false), 2000);
-  };
-
-  const getFullUrl = (url: string | null) => {
-    if (!url) return 'https://via.placeholder.com/400x500?text=Alma+Decor';
-    if (url.startsWith('http')) return url;
-    const path = url.startsWith('/') ? url : `/${url}`;
-    return `${API_BASE}${path}`;
   };
 
   return (

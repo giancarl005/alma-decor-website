@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Explorează gama completă de produse Alma Decor. Găsește elementele perfecte pentru amenajarea casei tale, de la decorațiuni la finisaje.',
 };
 
-const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
+const API_BASE = 'https://almadecor.ro';
 
 async function getCategories() {
   try {

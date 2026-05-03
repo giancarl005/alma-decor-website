@@ -7,7 +7,12 @@ interface ProductGalleryProps {
   discountPercent?: number;
 }
 
-const API_BASE = 'http://localhost/Alma%20Decor%20Website';
+const getFullUrl = (url: string) => {
+  if (!url) return '';
+  if (url.startsWith('http')) return url;
+  const path = url.startsWith('/') ? url : `/${url}`;
+  return path;
+};
 
 const ProductGallery: React.FC<ProductGalleryProps> = ({ images, discountPercent }) => {
   const [activeImage, setActiveImage] = useState(0);
@@ -19,11 +24,6 @@ const ProductGallery: React.FC<ProductGalleryProps> = ({ images, discountPercent
     const x = ((e.pageX - left) / width) * 100;
     const y = ((e.pageY - top - window.scrollY) / height) * 100;
     setMousePos({ x, y });
-  };
-
-  const getFullUrl = (url: string) => {
-    if (!url) return '';
-    return url.startsWith('http') ? url : `${API_BASE}${url}`;
   };
 
   if (!images || images.length === 0) return (

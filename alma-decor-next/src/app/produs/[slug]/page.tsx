@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import ProductDetailsClient from '@/components/shop/ProductDetailsClient';
 
-const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
+const API_BASE = 'https://almadecor.ro';
 
 async function getProduct(slug: string) {
   try {
@@ -67,6 +67,8 @@ async function getSimilarProducts(categorySlug: string) {
   }
 }
 
+const DOMAIN = 'https://almadecor.ro';
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const product = await getProduct(slug);
@@ -83,7 +85,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     openGraph: {
       title: product.name,
       description: product.description?.replace(/<[^>]*>?/gm, '').slice(0, 160),
-      images: [product.primary_image],
+      images: product.primary_image ? [`${DOMAIN}/${product.primary_image.startsWith('/') ? product.primary_image.slice(1) : product.primary_image}`] : [],
     },
   };
 }

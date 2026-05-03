@@ -3,7 +3,7 @@ import Link from 'next/link';
 import ProductGridClient from '@/components/shop/ProductGridClient';
 import { notFound } from 'next/navigation';
 
-const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
+const API_BASE = 'https://almadecor.ro';
 
 async function getCategory(slug: string) {
   try {
@@ -56,7 +56,7 @@ const getFullImageUrl = (url: string) => {
   if (!url) return '';
   if (url.startsWith('http')) return url;
   const path = url.startsWith('/') ? url : `/${url}`;
-  return `${API_BASE}${path}`;
+  return path;
 }
 
 export default async function CategoryPage({ 
