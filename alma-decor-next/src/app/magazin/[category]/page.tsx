@@ -5,10 +5,11 @@ import { notFound } from 'next/navigation';
 
 import { API_BASE } from '@/lib/api';
 
+export const dynamicParams = false;
+
 async function getCategory(slug: string) {
   try {
     const res = await fetch(`${API_BASE}/api/categorii.php`, {
-      cache: 'no-store'
     });
     if (!res.ok) return null;
     const data = await res.json();
@@ -23,7 +24,7 @@ async function getCategory(slug: string) {
 
 export async function generateStaticParams() {
   try {
-    const res = await fetch(`${API_BASE}/api/categorii.php`, { cache: 'no-store' });
+    const res = await fetch(`${API_BASE}/api/categorii.php`);
     if (!res.ok) return [];
     const data = await res.json();
     if (data.status !== 'success') return [];
@@ -40,7 +41,6 @@ export async function generateStaticParams() {
 async function getCategories() {
   try {
     const res = await fetch(`${API_BASE}/api/categorii.php`, {
-      cache: 'no-store'
     });
     if (!res.ok) return [];
     const data = await res.json();

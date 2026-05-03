@@ -12,9 +12,7 @@ import { API_BASE } from '@/lib/api';
 
 async function getCategories() {
   try {
-    const res = await fetch(`${API_BASE}/api/categorii.php`, {
-      cache: 'no-store'
-    });
+    const res = await fetch(`${API_BASE}/api/categorii.php`);
     if (!res.ok) return [];
     const data = await res.json();
     return data.status === 'success' ? data.data : [];

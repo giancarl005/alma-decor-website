@@ -11,9 +11,7 @@ export const metadata: Metadata = {
 
 async function getPosts() {
   try {
-    const res = await fetch(`${API_BASE}/api/blog.php`, {
-      cache: 'no-store'
-    });
+    const res = await fetch(`${API_BASE}/api/blog.php`);
     const data = await res.json();
     return data.status === 'success' ? data.data : [];
   } catch (err) {

@@ -5,11 +5,11 @@ import Link from 'next/link';
 
 import { API_BASE, DOMAIN } from '@/lib/api';
 
+export const dynamicParams = false;
+
 async function getPost(slug: string) {
   try {
-    const res = await fetch(`${API_BASE}/api/blog.php?slug=${slug}`, {
-      cache: 'no-store'
-    });
+    const res = await fetch(`${API_BASE}/api/blog.php?slug=${slug}`);
     if (!res.ok) return null;
     const data = await res.json();
     return data.status === 'success' ? data.data : null;
@@ -21,7 +21,7 @@ async function getPost(slug: string) {
 
 export async function generateStaticParams() {
   try {
-    const res = await fetch(`${API_BASE}/api/blog.php`, { cache: 'no-store' });
+    const res = await fetch(`${API_BASE}/api/blog.php`);
     if (!res.ok) return [];
     const data = await res.json();
     if (data.status !== 'success') return [];

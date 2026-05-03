@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import ProductCard from '@/components/shop/ProductCard';
 import TestimonialsCarousel from '@/components/home/TestimonialsCarousel';
+import { API_BASE } from '@/lib/api';
 
 export const metadata: Metadata = {
   title: 'Alma Decor - Magazin Online de Design Interior și Exterior',
@@ -12,7 +13,6 @@ export const metadata: Metadata = {
 async function getFeaturedProducts() {
   try {
     const res = await fetch(`${API_BASE}/api/produse.php?limit=4`, { 
-      cache: 'no-store',
       headers: {
         'Accept': 'application/json',
       }
@@ -33,7 +33,7 @@ async function getFeaturedProducts() {
 
 async function getCategories() {
   try {
-    const res = await fetch(`${API_BASE}/api/categorii.php`, { cache: 'no-store' });
+    const res = await fetch(`${API_BASE}/api/categorii.php`);
     if (!res.ok) return [];
     const data = await res.json();
     // Return exactly 4 active categories for one row

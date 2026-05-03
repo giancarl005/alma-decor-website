@@ -4,10 +4,11 @@ import ProductDetailsClient from '@/components/shop/ProductDetailsClient';
 
 import { API_BASE, DOMAIN } from '@/lib/api';
 
+export const dynamicParams = false;
+
 async function getProduct(slug: string) {
   try {
     const res = await fetch(`${API_BASE}/api/produse.php?slug=${slug}`, {
-      next: { revalidate: 3600 } // Cache for 1 hour
     });
     
     if (!res.ok) return null;
@@ -38,7 +39,7 @@ async function getProduct(slug: string) {
 
 export async function generateStaticParams() {
   try {
-    const res = await fetch(`${API_BASE}/api/produse.php?limit=2000`, { cache: 'no-store' });
+    const res = await fetch(`${API_BASE}/api/produse.php?limit=2000`);
     if (!res.ok) return [];
     const data = await res.json();
     if (data.status !== 'success') return [];
@@ -56,7 +57,6 @@ async function getSimilarProducts(categorySlug: string) {
   if (!categorySlug) return [];
   try {
     const res = await fetch(`${API_BASE}/api/produse.php?categorie=${categorySlug}&limit=5`, {
-      next: { revalidate: 3600 }
     });
     if (!res.ok) return [];
     const data = await res.json();
