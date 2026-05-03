@@ -8,7 +8,7 @@ $slug = isset($_GET['slug']) ? $_GET['slug'] : null;
 
 try {
     if ($slug) {
-        $stmt = $pdo->prepare("SELECT a.*, b.image as author_image, b.description as author_description, b.is_verified as author_is_verified, b.stat_1_label as author_stat_1_label, b.stat_1_value as author_stat_1_value, b.stat_2_label as author_stat_2_label, b.stat_2_value as author_stat_2_value, b.stat_3_label as author_stat_3_label, b.stat_3_value as author_stat_3_value FROM articole_blog a LEFT JOIN blog_authors b ON a.author COLLATE utf8mb4_unicode_ci = b.name COLLATE utf8mb4_unicode_ci WHERE a.slug = :slug AND a.is_published = 1");
+        $stmt = $pdo->prepare("SELECT * FROM articole_blog WHERE slug = :slug AND is_published = 1");
         $stmt->execute(['slug' => $slug]);
         $post = $stmt->fetch(PDO::FETCH_ASSOC);
         

@@ -125,7 +125,7 @@ const ProductGridClient: React.FC<ProductGridClientProps> = ({
       {products.length > 0 ? (
         <div className="grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-2">
           {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard key={`prod-${product.id}`} product={product} />
           ))}
         </div>
       ) : (
@@ -155,7 +155,7 @@ const ProductGridClient: React.FC<ProductGridClientProps> = ({
                
                return (
                 <Link
-                  key={pageNum}
+                  key={`page-${i}`}
                   href={`${window.location.pathname}?page=${pageNum}&limit=${currentLimit}&sort=${currentSort}${currentMinPrice ? `&min_price=${currentMinPrice}` : ''}${currentMaxPrice ? `&max_price=${currentMaxPrice}` : ''}`}
                   className={`w-8 h-8 flex items-center justify-center rounded-lg text-[10px] font-bold transition-all ${currentPage === pageNum ? 'bg-brand-yellow text-gray-900' : 'text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5'}`}
                 >

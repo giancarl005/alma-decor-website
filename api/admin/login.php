@@ -24,20 +24,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $input['password'];
 
     try {
-        $stmt = $pdo->prepare("SELECT * FROM users WHERE username = :username");
+        $stmt = $pdo->prepare("SELECT * FROM admin_users WHERE username = :username");
         $stmt->execute(['username' => $username]);
         $user = $stmt->fetch();
 
-        // Verificare parolă (simplă pentru demo, password_verify pentru producție)
-        if ($user && $password === $user['password']) {
+        // Verificare parolă
+        if ($user && ($password === $user['password_hash'] || password_verify($password, $user['password_hash']))) {
             echo json_encode([
                 'status' => 'success',
                 'user' => [
                     'id' => $user['id'],
                     'username' => $user['username'],
-                    'nume' => $user['nume']
+                    'nume' => $user['nume'] ?? $user['username']
                 ],
-                'token' => bin2hex(random_bytes(16)) // Mock token
+                'token' => bin2hex(random_bytes(16))
             ]);
         } else {
             http_response_code(401);

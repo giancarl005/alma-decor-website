@@ -3,7 +3,7 @@ import Link from 'next/link';
 import ProductGridClient from '@/components/shop/ProductGridClient';
 import { notFound } from 'next/navigation';
 
-const API_BASE = 'https://almadecor.ro';
+const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
 
 async function getCategory(slug: string) {
   try {
@@ -56,6 +56,10 @@ const getFullImageUrl = (url: string) => {
   if (!url) return '';
   if (url.startsWith('http')) return url;
   const path = url.startsWith('/') ? url : `/${url}`;
+  
+  if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+    return `http://127.0.0.1/Alma%20Decor%20Website${path}`;
+  }
   return path;
 }
 

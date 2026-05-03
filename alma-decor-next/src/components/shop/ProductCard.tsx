@@ -21,6 +21,10 @@ const getFullUrl = (url: string | null) => {
   if (!url) return 'https://via.placeholder.com/400x500?text=Alma+Decor';
   if (url.startsWith('http')) return url;
   const path = url.startsWith('/') ? url : `/${url}`;
+  
+  if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+    return `http://127.0.0.1/Alma%20Decor%20Website${path}`;
+  }
   return path;
 };
 

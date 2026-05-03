@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Explorează gama completă de produse Alma Decor. Găsește elementele perfecte pentru amenajarea casei tale, de la decorațiuni la finisaje.',
 };
 
-const API_BASE = 'https://almadecor.ro';
+const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
 
 async function getCategories() {
   try {
@@ -60,7 +60,7 @@ export default async function MagazinPage() {
                   </Link>
                 </li>
                 {categories.filter((c: any) => !c.parent_id || Number(c.parent_id) === 0).map((parent: any) => (
-                  <React.Fragment key={parent.id}>
+                  <React.Fragment key={`parent-${parent.id}`}>
                     <li>
                       <Link 
                         href={`/magazin/${parent.slug}`} 
@@ -72,7 +72,7 @@ export default async function MagazinPage() {
                     </li>
                     {/* Subcategories */}
                     {categories.filter((c: any) => Number(c.parent_id) === Number(parent.id)).map((child: any) => (
-                      <li key={child.id} className="pl-4">
+                      <li key={`child-${child.id}`} className="pl-4">
                         <Link 
                           href={`/magazin/${child.slug}`} 
                           className="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-brand-yellow transition-colors flex items-center gap-2 group"

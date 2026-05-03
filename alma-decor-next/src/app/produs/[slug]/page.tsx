@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import ProductDetailsClient from '@/components/shop/ProductDetailsClient';
 
-const API_BASE = 'https://almadecor.ro';
+const API_BASE = 'http://127.0.0.1/Alma%20Decor%20Website';
 
 async function getProduct(slug: string) {
   try {
