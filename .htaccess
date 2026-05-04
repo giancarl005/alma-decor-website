@@ -1,7 +1,17 @@
-# Alma Decor - Hybrid Routing Configuration
+# Alma Decor - Hybrid Routing (Node.js + PHP)
 RewriteEngine On
-RewriteBase "/Alma Decor Website/"
 
-# Trimitem totul la index.php dacă nu este un fișier fizic
+# 1. EXCEPȚII: Rutele care TREBUIE să meargă la PHP (Admin, API, Uploads)
+# Pe local, adăugăm folderul rădăcină în verificare dacă este cazul
+RewriteCond %{REQUEST_URI} ^.*/app [OR]
+RewriteCond %{REQUEST_URI} ^.*/admin [OR]
+RewriteCond %{REQUEST_URI} ^.*/api [OR]
+RewriteCond %{REQUEST_URI} ^.*/uploads [OR]
+RewriteCond %{REQUEST_URI} ^.*/alma-decor
+RewriteRule ^(.*)$ index.php [L]
+
+# 2. Pe local (Laragon), dacă nu e admin, trimitem la index.php DOAR dacă există build-ul static
+# Pe server, această regulă va fi ignorată dacă aplicația Node.js este activă
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ index.php [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^$ index.php [L]

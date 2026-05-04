@@ -44,9 +44,8 @@ jobs:
           # Copiem build-ul de Admin (Vite)
           cp -r alma-decor/dist/* deploy/alma-decor/dist/
           
-          # Copiem Storefront-ul (Next.js) - EXCLUDEM node_modules pentru viteză
-          # Folosim rsync pentru a copia tot în afară de node_modules
-          rsync -arv --exclude='node_modules' alma-decor-next/ deploy/alma-decor-next/
+          # Copiem Storefront-ul (Next.js) - EXCLUDEM node_modules și out
+          rsync -arv --exclude='node_modules' --exclude='out' alma-decor-next/ deploy/alma-decor-next/
 
       - name: 🚀 Deploy to cPanel via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
