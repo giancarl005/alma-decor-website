@@ -1,6 +1,12 @@
 const { createServer } = require('http');
 const { parse } = require('url');
 const next = require('next');
+const path = require('path');
+
+// Force load environment variables
+const { loadEnvConfig } = require('@next/env');
+const projectDir = process.cwd();
+loadEnvConfig(projectDir);
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
