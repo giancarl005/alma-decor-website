@@ -4,7 +4,10 @@
  */
 
 // Database Configuration
-if ($_SERVER['HTTP_HOST'] === 'localhost' || $_SERVER['HTTP_HOST'] === '127.0.0.1') {
+$http_host = $_SERVER['HTTP_HOST'] ?? '';
+$is_local = (strpos($http_host, 'localhost') !== false || strpos($http_host, '127.0.0.1') !== false || php_sapi_name() === 'cli');
+
+if ($is_local) {
     define('DB_HOST', 'localhost');
     define('DB_NAME', 'alma_decor');
     define('DB_USER', 'root');

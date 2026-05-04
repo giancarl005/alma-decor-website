@@ -29,3 +29,17 @@ Thumbs.db
 *.md
 !README.md
 !alma-decor-specificatii.md
+
+# SSH Keys
+almadecor_*
+almadecor_ed25519*
+
+# Temporary/Test files
+test_db.php
+reset_admin.php
+*.zip
+*.docx
+*.sql
+*.md
+!README.md
+!alma-decor-specificatii.md
