@@ -1,8 +1,11 @@
 const { createServer } = require('http');
 const { parse } = require('url');
 const next = require('next');
-const fs = require('fs');
 const path = require('path');
+const fs = require('fs');
+
+// TEST SUPREM: Creăm un fișier fizic ca să știm că am pornit
+fs.writeFileSync(path.join(__dirname, 'AICI_SUNT_EU.txt'), 'Am pornit la data de: ' + new Date().toLocaleString());
 
 console.error('ALMA DECOR: SERVER.JS IS STARTING NOW!');
 
