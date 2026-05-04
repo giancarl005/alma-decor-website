@@ -36,7 +36,6 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           server: ${{ secrets.SSH_HOST }}
           ssh_private_key: ${{ secrets.SSH_KEY }}
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
           local_path: './*'
           remote_path: '/home/${{ secrets.SSH_USER }}/public_html'
           args: '-o ConnectTimeout=5'
@@ -47,7 +46,6 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
           port: 22
           script: |
             cd /home/${{ secrets.SSH_USER }}/public_html/alma-decor-next

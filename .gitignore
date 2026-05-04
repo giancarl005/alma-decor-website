@@ -33,6 +33,7 @@ Thumbs.db
 # SSH Keys
 almadecor_*
 almadecor_ed25519*
+almadecor_deploy_nopass*
 
 # Temporary/Test files
 test_db.php
