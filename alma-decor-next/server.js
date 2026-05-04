@@ -22,7 +22,9 @@ if (fs.existsSync(envPath)) {
   console.error('DEBUG: .env.production NOT FOUND at ' + envPath);
 }
 
-const dev = process.env.NODE_ENV !== 'production';
+// FORCE PRODUCTION MODE FOR CPANEL
+process.env.NODE_ENV = 'production';
+const dev = false;
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
