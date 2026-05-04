@@ -3,7 +3,7 @@
 import React, { Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
-import { CheckIcon } from '@/components/ui/Icon';
+import { CheckIcon } from '../../../components/ui/Icon';
 
 function ConfirmationContent() {
   const searchParams = useSearchParams();

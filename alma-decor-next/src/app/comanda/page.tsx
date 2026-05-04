@@ -3,10 +3,10 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useCart } from '@/contexts/CartContext';
-import { TrashIcon, ShieldCheckIcon, CheckIcon } from '@/components/ui/Icon';
+import { useCart } from '../../contexts/CartContext';
+import { TrashIcon, ShieldCheckIcon, CheckIcon } from '../../components/ui/Icon';
 
-import { API_BASE } from '@/lib/api';
+import { API_BASE } from '../../lib/api';
 
 export default function CheckoutPage() {
   const { cart, cartTotal, clearCart } = useCart();
