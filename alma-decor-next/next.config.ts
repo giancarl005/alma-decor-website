@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // output: 'export', // Eliminat pentru a permite randarea dinamică (force-dynamic) pe serverul Node.js
-  trailingSlash: true,
+  // trailingSlash: true,
   images: {
     unoptimized: true,
     remotePatterns: [
