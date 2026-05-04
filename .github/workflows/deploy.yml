@@ -30,23 +30,16 @@ jobs:
           npm install
           npm run build
 
-      - name: 🚀 Deploy to cPanel via SSH/SCP
-        uses: appleboy/scp-action@v0.1.7
+      - name: 🚀 Deploy to cPanel via SSH
+        uses: easingthemes/ssh-deploy@v5.1.0
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.SSH_PASSWORD }}
-          port: 22
-          source: "."
-          target: "/home/${{ secrets.SSH_USER }}/public_html"
-          rm: false
-          strip_components: 0
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
-            **/src/**
-            alma-decor-next/.next/cache/**
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+          REMOTE_HOST: ${{ secrets.SSH_HOST }}
+          REMOTE_USER: ${{ secrets.SSH_USER }}
+          REMOTE_PORT: 22
+          TARGET: "/home/${{ secrets.SSH_USER }}/public_html"
+          SOURCE: "."
+          EXCLUDE: "/.git/, /.github/, /node_modules/, /alma-decor-next/.next/cache/"
 
       - name: 🔄 Restart Node.js App
         uses: appleboy/ssh-action@v1.0.3
