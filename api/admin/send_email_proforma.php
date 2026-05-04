@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-require_once '../../app/config.php';
+require_once __DIR__ . '/../../app/config.php';
 
 $input = json_decode(file_get_contents('php://input'), true);
 $order_id = isset($input['order_id']) ? (int)$input['order_id'] : 0;

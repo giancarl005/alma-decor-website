@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit;
 }
 
-require_once '../../app/config.php';
+require_once __DIR__ . '/../../app/config.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
 

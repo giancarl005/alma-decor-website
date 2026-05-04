@@ -44,7 +44,7 @@ const AdminSidebar: React.FC = () => {
   useEffect(() => {
     const fetchNotifications = async () => {
       try {
-        const res = await fetch('http://localhost:3001/api/admin/notificari.php');
+        const res = await fetch('/api/admin/notificari.php');
         const data = await res.json();
         if (data.status === 'success') {
           setNotifications(data.data);

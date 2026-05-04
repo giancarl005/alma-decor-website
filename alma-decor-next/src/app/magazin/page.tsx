@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   description: 'Explorează gama completă de produse Alma Decor. Găsește elementele perfecte pentru amenajarea casei tale, de la decorațiuni la finisaje.',
 };
 
+export const dynamic = 'force-dynamic';
+
 import { API_BASE } from '@/lib/api';
 
 async function getCategories() {

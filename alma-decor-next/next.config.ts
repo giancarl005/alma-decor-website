@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  // output: 'export', // Eliminat pentru a permite randarea dinamică (force-dynamic) pe serverul Node.js
   trailingSlash: true,
   images: {
     unoptimized: true,

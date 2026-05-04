@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   description: 'Descoperă ultimele tendințe în design interior, sfaturi practice de la specialiști și idei inspiraționale pentru amenajarea casei tale pe blogul Alma Decor.',
 };
 
+export const dynamic = 'force-dynamic';
+
 async function getPosts() {
   try {
     const res = await fetch(`${API_BASE}/api/blog.php`);

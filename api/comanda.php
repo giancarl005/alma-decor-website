@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     VALUES (:order_id, :product_id, :product_name, :quantity, :price, :variation_id)";
         $stmtItem = $pdo->prepare($sqlItem);
 
-        $sqlStock = "UPDATE produse SET stock = stock - :quantity WHERE id = :product_id AND stock >= :quantity";
+        $sqlStock = "UPDATE produse SET stock = stock - :quantity WHERE id = :product_id AND stock >= :check_quantity";
         $stmtStock = $pdo->prepare($sqlStock);
 
         foreach ($input['items'] as $item) {
@@ -72,7 +72,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Scade stocul
             $stmtStock->execute([
                 'quantity' => $item['quantity'],
-                'product_id' => $item['id']
+                'product_id' => $item['id'],
+                'check_quantity' => $item['quantity']
             ]);
 
             if ($stmtStock->rowCount() === 0) {

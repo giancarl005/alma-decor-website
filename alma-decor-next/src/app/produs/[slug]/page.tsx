@@ -4,7 +4,7 @@ import ProductDetailsClient from '@/components/shop/ProductDetailsClient';
 
 import { API_BASE, DOMAIN } from '@/lib/api';
 
-export const dynamicParams = false;
+export const dynamic = 'force-dynamic';
 
 async function getProduct(slug: string) {
   try {

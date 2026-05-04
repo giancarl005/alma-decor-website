@@ -1,5 +1,5 @@
 <?php
-require_once '../../app/config.php';
+require_once __DIR__ . '/../../app/config.php';
 require_once '../fpdf/fpdf.php';
 
 // Verificăm dacă primim id-ul comenzii

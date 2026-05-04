@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 
-require_once '../../app/config.php';
+require_once __DIR__ . '/../../app/config.php';
 
 try {
     $stmt = $pdo->query("SELECT * FROM log_import ORDER BY created_at DESC LIMIT 5");

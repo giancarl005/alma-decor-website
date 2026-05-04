@@ -4,14 +4,26 @@
  */
 
 // Database Configuration
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'almadeco_alma_decor');
-define('DB_USER', 'almadeco_admin_alma');
-define('DB_PASS', 'GCJ@8t&Z*2XooWeh');
+if ($_SERVER['HTTP_HOST'] === 'localhost' || $_SERVER['HTTP_HOST'] === '127.0.0.1') {
+    define('DB_HOST', 'localhost');
+    define('DB_NAME', 'alma_decor');
+    define('DB_USER', 'root');
+    define('DB_PASS', ''); // Parola goală pentru Laragon implicit
+} else {
+    define('DB_HOST', 'localhost');
+    define('DB_NAME', 'almadeco_alma_decor');
+    define('DB_USER', 'almadeco_admin_alma');
+    define('DB_PASS', 'GCJ@8t&Z*2XooWeh');
+}
 define('DB_CHARSET', 'utf8mb4');
 
 // App Configuration
-define('SITE_URL', 'https://almadecor.ro');
+$protocol = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? "https" : "http";
+$host = $_SERVER['HTTP_HOST'];
+$script_name = $_SERVER['SCRIPT_NAME'];
+$base_dir = str_replace('index.php', '', $script_name);
+define('SITE_URL', "$protocol://$host" . rtrim($base_dir, '/'));
+
 define('ADMIN_EMAIL', 'admin@almadecor.ro');
 
 // Database Connection (PDO)

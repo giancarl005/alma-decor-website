@@ -4,7 +4,7 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Headers: Content-Type');
 header('Access-Control-Allow-Methods: GET, OPTIONS');
 
-require_once '../../app/config.php';
+require_once __DIR__ . '/../../app/config.php';
 
 try {
     // 1. Vânzări Lună (Current Month)

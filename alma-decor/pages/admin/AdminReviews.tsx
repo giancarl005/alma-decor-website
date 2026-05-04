@@ -24,7 +24,7 @@ const AdminReviews: React.FC = () => {
 
   const fetchReviews = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/admin/recenzii.php');
+      const response = await fetch('/api/admin/recenzii.php');
       const data = await response.json();
       if (data.status === 'success') {
         setReviews(data.data);
@@ -44,7 +44,7 @@ const AdminReviews: React.FC = () => {
 
   const handleAction = async (id: number, action: 'approve' | 'delete' | 'unapprove' | 'update', extraData = {}) => {
     try {
-      const response = await fetch('http://localhost:3001/api/admin/recenzii.php', {
+      const response = await fetch('/api/admin/recenzii.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id, action, ...extraData })
@@ -178,7 +178,7 @@ const AdminReviews: React.FC = () => {
                     {review.imagini && review.imagini.length > 0 && (
                       <div className="flex gap-3 mt-6">
                         {review.imagini.map((img, idx) => (
-                          <img key={idx} src={`http://localhost:3001/uploads/recenzii/${img}`} className="w-20 h-20 object-cover rounded-xl border border-gray-100 dark:border-white/5" alt="Review" />
+                          <img key={idx} src={`/uploads/recenzii/${img}`} className="w-20 h-20 object-cover rounded-xl border border-gray-100 dark:border-white/5" alt="Review" />
                         ))}
                       </div>
                     )}

@@ -60,7 +60,7 @@ const AdminBlog: React.FC = () => {
   const fetchPosts = async () => {
     setLoading(true);
     try {
-      const res = await fetch('http://localhost:3001/api/admin/blog.php');
+      const res = await fetch('/api/admin/blog.php');
       const data = await res.json();
       setPosts(Array.isArray(data) ? data : []);
     } catch (err) {
@@ -72,7 +72,7 @@ const AdminBlog: React.FC = () => {
 
   const fetchAuthors = async () => {
     try {
-      const res = await fetch('http://localhost:3001/api/admin/blog_authors.php');
+      const res = await fetch('/api/admin/blog_authors.php');
       const data = await res.json();
       setAuthors(data.status === 'success' ? data.data : []);
     } catch (err) {
@@ -91,7 +91,7 @@ const AdminBlog: React.FC = () => {
     e.preventDefault();
     const method = currentPost.id ? 'PUT' : 'POST';
     try {
-      const res = await fetch('http://localhost:3001/api/admin/blog.php', {
+      const res = await fetch('/api/admin/blog.php', {
         method,
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(currentPost)
@@ -111,7 +111,7 @@ const AdminBlog: React.FC = () => {
   const handleDelete = async (id: number) => {
     if (!window.confirm("Sigur ștergi acest articol?")) return;
     try {
-      const res = await fetch(`http://localhost:3001/api/admin/blog.php?id=${id}`, {
+      const res = await fetch(`/api/admin/blog.php?id=${id}`, {
         method: 'DELETE'
       });
       const data = await res.json();
@@ -131,7 +131,7 @@ const AdminBlog: React.FC = () => {
     formData.append('file', file);
 
     try {
-      const res = await fetch('http://localhost:3001/api/admin/upload_image.php', {
+      const res = await fetch('/api/admin/upload_image.php', {
         method: 'POST',
         body: formData
       });
@@ -157,7 +157,7 @@ const AdminBlog: React.FC = () => {
     formData.append('file', file);
 
     try {
-      const res = await fetch('http://localhost:3001/api/admin/upload_image.php', {
+      const res = await fetch('/api/admin/upload_image.php', {
         method: 'POST',
         body: formData
       });
@@ -338,7 +338,7 @@ const AdminBlog: React.FC = () => {
                     <div className="flex items-center gap-4">
                       {currentPost.featured_image && (
                         <div className="w-20 h-20 rounded-lg overflow-hidden border border-gray-200">
-                          <img src={`http://localhost:3001${currentPost.featured_image}`} alt="Featured" className="w-full h-full object-cover" />
+                          <img src={`${currentPost.featured_image}`} alt="Featured" className="w-full h-full object-cover" />
                         </div>
                       )}
                       <div className="flex-1">
@@ -388,7 +388,7 @@ const AdminBlog: React.FC = () => {
                             'alignright alignjustify | bullist numlist outdent indent | ' +
                             'image link | removeformat | help',
                           content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }',
-                          images_upload_url: 'http://localhost:3001/api/admin/upload_image.php',
+                          images_upload_url: '/api/admin/upload_image.php',
                           images_upload_credentials: true,
                           automatic_uploads: true,
                         }}
@@ -552,7 +552,7 @@ const AdminBlog: React.FC = () => {
                           <button 
                             onClick={async () => {
                               try {
-                                const res = await fetch(`http://localhost:3001/api/admin/blog.php?id=${post.id}`);
+                                const res = await fetch(`/api/admin/blog.php?id=${post.id}`);
                                 const fullPost = await res.json();
                                 setCurrentPost(fullPost);
                                 setIsEditing(true);
@@ -590,7 +590,7 @@ const AdminBlog: React.FC = () => {
                   e.preventDefault();
                   const method = currentAuthor.id ? 'PUT' : 'POST';
                   try {
-                    const res = await fetch('http://localhost:3001/api/admin/blog_authors.php', {
+                    const res = await fetch('/api/admin/blog_authors.php', {
                       method,
                       headers: { 'Content-Type': 'application/json' },
                       body: JSON.stringify(currentAuthor)
@@ -614,7 +614,7 @@ const AdminBlog: React.FC = () => {
                     <div className="flex items-center gap-4">
                       {currentAuthor.image && (
                         <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-brand-yellow">
-                          <img src={`http://localhost:3001${currentAuthor.image}`} alt="Avatar" className="w-full h-full object-cover" />
+                          <img src={`${currentAuthor.image}`} alt="Avatar" className="w-full h-full object-cover" />
                         </div>
                       )}
                       <div className="flex-1">

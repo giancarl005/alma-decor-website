@@ -70,9 +70,13 @@ const AdminDashboard: React.FC = () => {
             </p>
           </div>
           <div className="flex gap-4">
-            <Link to="/magazin" target="_blank" className="px-6 py-2.5 rounded-xl bg-white dark:bg-white/5 border border-gray-200 dark:border-white/10 text-gray-700 dark:text-white font-bold text-[9px] uppercase tracking-widest hover:bg-gray-50 dark:hover:bg-white/10 transition-all flex items-center gap-2 shadow-sm">
+            <a 
+              href="/Alma%20Decor%20Website/" 
+              target="_blank" 
+              className="px-6 py-2.5 rounded-xl bg-white dark:bg-white/5 border border-gray-200 dark:border-white/10 text-gray-700 dark:text-white font-bold text-[9px] uppercase tracking-widest hover:bg-gray-50 dark:hover:bg-white/10 transition-all flex items-center gap-2 shadow-sm"
+            >
               <Icons.IconArrowRight /> View Storefront
-            </Link>
+            </a>
           </div>
         </header>
 

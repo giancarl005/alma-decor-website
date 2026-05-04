@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { ThemeProvider } from './contexts/ThemeContext';
 import Layout from './components/layout/Layout';
 import { CartProvider } from './contexts/CartContext';
@@ -33,15 +33,12 @@ import ScrollToTop from './components/layout/ScrollToTop';
 
 const App: React.FC = () => {
   const [activeLegalPage, setActiveLegalPage] = useState<string | null>(null);
-  const pathname = window.location.pathname;
-  const basename = pathname.includes('/Alma%20Decor%20Website') ? '/Alma%20Decor%20Website' : 
-                   pathname.includes('/Alma Decor Website') ? '/Alma Decor Website' : '';
 
   return (
     <ThemeProvider>
       <NotificationProvider>
         <CartProvider>
-          <Router basename={basename}>
+          <Router>
             <ScrollToTop />
             <Routes>
               <Route element={<Layout activeLegalPage={activeLegalPage} setActiveLegalPage={setActiveLegalPage} />}>

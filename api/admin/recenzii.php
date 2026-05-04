@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit;
 }
 
-require_once '../../app/config.php';
+require_once __DIR__ . '/../../app/config.php';
 
 // Simple auth check - simplified for this environment
 // In a real app, you'd check a JWT or session here

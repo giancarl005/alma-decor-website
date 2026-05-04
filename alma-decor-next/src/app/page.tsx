@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   description: 'Descoperă colecția exclusivistă Alma Decor. Materiale premium, parchet, profile decorative și tapet pentru proiecte de design interior fără compromis.',
 };
 
+export const dynamic = 'force-dynamic';
+
 async function getFeaturedProducts() {
   try {
     const res = await fetch(`${API_BASE}/api/produse.php?limit=4`, { 

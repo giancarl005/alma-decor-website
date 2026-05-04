@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 
 import { API_BASE } from '@/lib/api';
 
-export const dynamicParams = false;
+export const dynamic = 'force-dynamic';
 
 async function getCategory(slug: string) {
   try {

@@ -1,16 +1,7 @@
 # Alma Decor - Hybrid Routing Configuration
 RewriteEngine On
-RewriteBase /
+RewriteBase "/Alma Decor Website/"
 
-# Force HTTPS (optional, but recommended)
-# RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Exclude existing files and directories from routing
-# (images, scripts, api, admin, etc.)
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^ - [L]
-
-# Redirect all other requests to index.php
+# Trimitem totul la index.php dacă nu este un fișier fizic
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php [QSA,L]
