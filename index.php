@@ -102,6 +102,10 @@ if ($is_app) {
     $html = str_replace('"/api/', '"' . rtrim($base_dir, '/') . '/api/', $html);
     $html = str_replace('"/uploads/', '"' . rtrim($base_dir, '/') . '/uploads/', $html);
     
+    // Corecție pentru folderul de assets generat de Vite
+    $html = str_replace('"/assets/', '"' . $asset_base . 'assets/', $html);
+    $html = str_replace("'/assets/", "'" . $asset_base . "assets/", $html);
+    
     // Corecție pentru butonul View Storefront
     $html = str_replace('href="/magazin"', 'href="' . rtrim($base_dir, '/') . '/"', $html);
     
