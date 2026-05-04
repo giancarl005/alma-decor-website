@@ -4,7 +4,10 @@ let pool: mysql.Pool | null = null;
 
 export const getDb = () => {
   if (!pool) {
-    console.error('DEBUG DB: Connecting with almadeco_admin_alma');
+    console.error('CRITICAL DEBUG: ATTEMPTING CONNECTION WITH almadeco_admin_alma');
+    // Force an error to see if THIS file is actually running
+    // throw new Error('FORCE_DEBUG: DB.TS IS EXECUTING');
+    
     pool = mysql.createPool({
       host: 'localhost',
       user: 'almadeco_admin_alma',
