@@ -67,6 +67,12 @@ const ProductGridClient: React.FC<ProductGridClientProps> = ({
     fetchProducts();
   }, [categorySlug, currentPage, currentLimit, currentSort, currentMinPrice, currentMaxPrice]);
 
+  const [pathName, setPathName] = useState('');
+
+  useEffect(() => {
+    setPathName(window.location.pathname);
+  }, []);
+
   if (isLoading && products.length === 0) {
     return (
       <div className="grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-2 animate-pulse">
@@ -107,10 +113,7 @@ const ProductGridClient: React.FC<ProductGridClientProps> = ({
               onChange={(e) => {
                 const params = new URLSearchParams(window.location.search);
                 params.set('sort', e.target.value);
-                window.history.pushState({}, '', `${window.location.pathname}?${params.toString()}`);
-                // Note: In Next.js with app router, we should use useRouter for navigation
-                // but since this is a simple replacement, we can use window for now
-                window.location.href = `${window.location.pathname}?${params.toString()}`;
+                window.location.href = `${pathName}?${params.toString()}`;
               }}
             >
               <option value="newest">Noutăți</option>
@@ -134,11 +137,11 @@ const ProductGridClient: React.FC<ProductGridClientProps> = ({
       )}
       
       {/* Pagination */}
-      {totalPages > 1 && (
+      {totalPages > 1 && pathName && (
         <div className="mt-16 pt-8 border-t border-gray-100 dark:border-white/5 flex justify-center items-center gap-4">
           {currentPage > 1 && (
             <Link 
-              href={`${window.location.pathname}?page=${currentPage - 1}&limit=${currentLimit}&sort=${currentSort}${currentMinPrice ? `&min_price=${currentMinPrice}` : ''}${currentMaxPrice ? `&max_price=${currentMaxPrice}` : ''}`}
+              href={`${pathName}?page=${currentPage - 1}&limit=${currentLimit}&sort=${currentSort}${currentMinPrice ? `&min_price=${currentMinPrice}` : ''}${currentMaxPrice ? `&max_price=${currentMaxPrice}` : ''}`}
               className="text-[10px] font-bold text-gray-900 dark:text-white uppercase tracking-widest hover:text-brand-yellow transition-colors"
             >
               Anterior
@@ -155,7 +158,7 @@ const ProductGridClient: React.FC<ProductGridClientProps> = ({
                return (
                 <Link
                   key={`page-${i}`}
-                  href={`${window.location.pathname}?page=${pageNum}&limit=${currentLimit}&sort=${currentSort}${currentMinPrice ? `&min_price=${currentMinPrice}` : ''}${currentMaxPrice ? `&max_price=${currentMaxPrice}` : ''}`}
+                  href={`${pathName}?page=${pageNum}&limit=${currentLimit}&sort=${currentSort}${currentMinPrice ? `&min_price=${currentMinPrice}` : ''}${currentMaxPrice ? `&max_price=${currentMaxPrice}` : ''}`}
                   className={`w-8 h-8 flex items-center justify-center rounded-lg text-[10px] font-bold transition-all ${currentPage === pageNum ? 'bg-brand-yellow text-gray-900' : 'text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5'}`}
                 >
                   {pageNum}
@@ -166,7 +169,7 @@ const ProductGridClient: React.FC<ProductGridClientProps> = ({
 
           {currentPage < totalPages && (
             <Link 
-              href={`${window.location.pathname}?page=${currentPage + 1}&limit=${currentLimit}&sort=${currentSort}${currentMinPrice ? `&min_price=${currentMinPrice}` : ''}${currentMaxPrice ? `&max_price=${currentMaxPrice}` : ''}`}
+              href={`${pathName}?page=${currentPage + 1}&limit=${currentLimit}&sort=${currentSort}${currentMinPrice ? `&min_price=${currentMinPrice}` : ''}${currentMaxPrice ? `&max_price=${currentMaxPrice}` : ''}`}
               className="text-[10px] font-bold text-gray-900 dark:text-white uppercase tracking-widest hover:text-brand-yellow transition-colors"
             >
               Următor
