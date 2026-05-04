@@ -77,61 +77,16 @@ if ($is_app) {
 }
 
 // 2. Logica de STOREFRONT (Next.js)
-$html_file = __DIR__ . '/alma-decor-next/out/index.html';
-$next_path = __DIR__ . '/alma-decor-next/out/' . $uri . '.html';
-
-if (file_exists($next_path)) {
-    $html_file = $next_path;
-} elseif (file_exists(__DIR__ . '/alma-decor-next/out/' . $uri . '/index.html')) {
-    $html_file = __DIR__ . '/alma-decor-next/out/' . $uri . '/index.html';
-}
-
-if (!file_exists($html_file)) {
+// Pe local (Laragon), servim din folderul 'out' dacă există, altfel facem redirect la portul 3001
+if ($_SERVER['HTTP_HOST'] === 'localhost' || $_SERVER['HTTP_HOST'] === '127.0.0.1') {
     $html_file = __DIR__ . '/alma-decor-next/out/index.html';
-}
-
-if (!file_exists($html_file)) {
-    if ($_SERVER['HTTP_HOST'] === 'localhost' || $_SERVER['HTTP_HOST'] === '127.0.0.1') {
-         header("Location: http://localhost:3001/" . ltrim($uri_path, '/'));
-         exit;
+    if (!file_exists($html_file)) {
+        header("Location: http://localhost:3001/" . ltrim($uri_path, '/'));
+        exit;
     }
-    die("Eroare: Aplicația Next.js nu este compilată.");
+    echo file_get_contents($html_file);
+} else {
+    // Pe server, lăsăm aplicația Node.js să preia controlul.
+    // Dacă am ajuns aici, înseamnă că acest fișier a fost apelat greșit pentru o rută de storefront.
+    // Nu afișăm nimic și lăsăm serverul să continue către următorul handler (Node.js).
 }
-
-$html = file_get_contents($html_file);
-$next_asset_base = rtrim($base_dir, '/') . '/alma-decor-next/out/';
-$html = str_replace('/_next/', $next_asset_base . '_next/', $html);
-
-// SEO & Tracking pentru Storefront
-$seo = [
-    'title' => 'Alma Decor - Design Interior & Exterior Premium',
-    'description' => 'Soluții complete de design interior: parchet, tapet, perdele și consultanță specializată.',
-    'image' => 'https://www.almadecor.ro/assets/og-image.jpg'
-];
-
-// ... (Preluare date SEO specifice din DB dacă e cazul)
-if (strpos($uri, 'produs/') === 0) {
-    $slug = str_replace('produs/', '', $uri);
-    $stmt = $pdo->prepare("SELECT name, short_description, primary_image FROM produse WHERE slug = ?");
-    $stmt->execute([$slug]);
-    $prod = $stmt->fetch();
-    if ($prod) {
-        $seo['title'] = $prod['name'] . ' - Alma Decor';
-        $seo['description'] = $prod['short_description'];
-        $seo['image'] = $prod['primary_image'];
-    }
-}
-
-$html = preg_replace('/<title>.*?<\/title>/i', '<title>' . htmlspecialchars($seo['title']) . '</title>', $html);
-$html = preg_replace('/<meta name="description" content=".*?"/i', '<meta name="description" content="' . htmlspecialchars($seo['description']) . '"', $html);
-
-// Tracking Pixels
-$stmt = $pdo->query("SELECT * FROM settings WHERE setting_key LIKE 'pixel_%'");
-$pixels_data = $stmt->fetchAll(PDO::FETCH_KEY_PAIR);
-$tracking = "";
-if (!empty($pixels_data['pixel_facebook'])) $tracking .= "<script>/* FB Pixel */</script>"; // Simplificat pentru demo
-if (!empty($pixels_data['pixel_google_analytics'])) $tracking .= "<script>/* GA Pixel */</script>";
-
-$html = str_replace('</head>', $tracking . '</head>', $html);
-
-echo $html;
