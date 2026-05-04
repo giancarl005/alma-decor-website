@@ -4,8 +4,10 @@ const next = require('next');
 const fs = require('fs');
 const path = require('path');
 
-// MANUAL ENV LOADER (Reliable for cPanel)
-const envPath = path.join(process.cwd(), '.env.production');
+// MANUAL ENV LOADER (Absolute Path for cPanel)
+const envPath = path.join(__dirname, '.env.production');
+console.error('DEBUG: Looking for .env at ' + envPath);
+
 if (fs.existsSync(envPath)) {
   const envConfig = fs.readFileSync(envPath, 'utf8');
   envConfig.split('\n').forEach(line => {
@@ -15,9 +17,9 @@ if (fs.existsSync(envPath)) {
       process.env[key.trim()] = value;
     }
   });
-  console.log('ENV: .env.production loaded manually');
+  console.error('DEBUG: .env.production LOADED SUCCESSFULY from ' + envPath);
 } else {
-  console.error('ENV: .env.production NOT FOUND at ' + envPath);
+  console.error('DEBUG: .env.production NOT FOUND at ' + envPath);
 }
 
 const dev = process.env.NODE_ENV !== 'production';
