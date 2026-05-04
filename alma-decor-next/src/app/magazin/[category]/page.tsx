@@ -23,19 +23,7 @@ async function getCategory(slug: string) {
 }
 
 export async function generateStaticParams() {
-  try {
-    const res = await fetch(`${API_BASE}/api/categorii.php`);
-    if (!res.ok) return [];
-    const data = await res.json();
-    if (data.status !== 'success') return [];
-    
-    return data.data.map((category: any) => ({
-      category: category.slug,
-    }));
-  } catch (error) {
-    console.error('Error generating static params for categories:', error);
-    return [];
-  }
+  return []; // Dezactivăm pre-generarea statică pentru build stabil
 }
 
 async function getCategories() {
