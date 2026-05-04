@@ -7,16 +7,16 @@
 $http_host = $_SERVER['HTTP_HOST'] ?? '';
 $is_local = (strpos($http_host, 'localhost') !== false || strpos($http_host, '127.0.0.1') !== false || php_sapi_name() === 'cli');
 
-if ($is_local) {
-    define('DB_HOST', 'localhost');
-    define('DB_NAME', 'alma_decor');
-    define('DB_USER', 'root');
-    define('DB_PASS', ''); // Parola goală pentru Laragon implicit
-} else {
+if (strpos($http_host, 'almadecor.ro') !== false) {
     define('DB_HOST', 'localhost');
     define('DB_NAME', 'almadeco_alma_decor');
     define('DB_USER', 'almadeco_admin_alma');
     define('DB_PASS', 'GCJ@8t&Z*2XooWeh');
+} else {
+    define('DB_HOST', 'localhost');
+    define('DB_NAME', 'alma_decor');
+    define('DB_USER', 'root');
+    define('DB_PASS', ''); // Parola goală pentru Laragon implicit
 }
 define('DB_CHARSET', 'utf8mb4');
 
