@@ -7,17 +7,17 @@ import { API_BASE } from '@/lib/api';
 
 export const dynamic = 'force-dynamic';
 
+import { query } from '@/lib/db';
+
 async function getCategory(slug: string) {
   try {
-    const res = await fetch(`${API_BASE}/api/categorii.php`, {
-    });
-    if (!res.ok) return null;
-    const data = await res.json();
-    if (data.status === 'success') {
-      return data.data.find((c: any) => c.slug === slug);
-    }
-    return null;
+    const categories = await query<any[]>(
+      "SELECT * FROM categorii WHERE slug = ?",
+      [slug]
+    );
+    return categories && categories.length > 0 ? categories[0] : null;
   } catch (error) {
+    console.error('DB Error Category:', error);
     return null;
   }
 }
@@ -28,12 +28,12 @@ export async function generateStaticParams() {
 
 async function getCategories() {
   try {
-    const res = await fetch(`${API_BASE}/api/categorii.php`, {
-    });
-    if (!res.ok) return [];
-    const data = await res.json();
-    return data.status === 'success' ? data.data : [];
+    const categories = await query<any[]>(
+      "SELECT * FROM categorii ORDER BY name ASC"
+    );
+    return categories || [];
   } catch (error) {
+    console.error('DB Error Categories:', error);
     return [];
   }
 }

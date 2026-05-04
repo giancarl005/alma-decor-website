@@ -1,6 +1,6 @@
 export const getApiBase = () => {
   if (typeof window !== 'undefined') {
-    return ''; // Relative path in browser
+    return ''; // Browser
   }
   return 'https://almadecor.ro';
 };

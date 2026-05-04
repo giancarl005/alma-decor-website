@@ -10,16 +10,16 @@ export const metadata: Metadata = {
 
 export const dynamic = 'force-dynamic';
 
-import { API_BASE } from '@/lib/api';
+import { query } from '@/lib/db';
 
 async function getCategories() {
   try {
-    const res = await fetch(`${API_BASE}/api/categorii.php`);
-    if (!res.ok) return [];
-    const data = await res.json();
-    return data.status === 'success' ? data.data : [];
+    const categories = await query<any[]>(
+      "SELECT * FROM categorii ORDER BY name ASC"
+    );
+    return categories || [];
   } catch (error) {
-    console.error('Fetch error:', error);
+    console.error('DB Error Categories:', error);
     return [];
   }
 }
