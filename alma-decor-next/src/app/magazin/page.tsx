@@ -14,12 +14,14 @@ import { query } from '@/lib/db';
 
 async function getCategories() {
   try {
+    console.error('DEBUG: Fetching categories from DB...');
     const categories = await query<any[]>(
       "SELECT * FROM categorii ORDER BY name ASC"
     );
+    console.error('DEBUG: Categories found: ' + (categories ? categories.length : 0));
     return categories || [];
   } catch (error) {
-    console.error('DB Error Categories:', error);
+    console.error('DB ERROR in MagazinPage:', error);
     return [];
   }
 }

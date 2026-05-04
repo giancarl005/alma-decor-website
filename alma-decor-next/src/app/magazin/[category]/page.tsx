@@ -11,13 +11,16 @@ import { query } from '@/lib/db';
 
 async function getCategory(slug: string) {
   try {
+    console.error('DEBUG: Fetching single category for slug: ' + slug);
     const categories = await query<any[]>(
       "SELECT * FROM categorii WHERE slug = ?",
       [slug]
     );
-    return categories && categories.length > 0 ? categories[0] : null;
+    const cat = categories && categories.length > 0 ? categories[0] : null;
+    console.error('DEBUG: Category found: ' + (cat ? cat.name : 'NONE'));
+    return cat;
   } catch (error) {
-    console.error('DB Error Category:', error);
+    console.error('DB ERROR in CategoryPage (single):', error);
     return null;
   }
 }
@@ -28,12 +31,14 @@ export async function generateStaticParams() {
 
 async function getCategories() {
   try {
+    console.error('DEBUG: Fetching all categories for sidebar...');
     const categories = await query<any[]>(
       "SELECT * FROM categorii ORDER BY name ASC"
     );
+    console.error('DEBUG: Sidebar categories found: ' + (categories ? categories.length : 0));
     return categories || [];
   } catch (error) {
-    console.error('DB Error Categories:', error);
+    console.error('DB ERROR in CategoryPage (list):', error);
     return [];
   }
 }
