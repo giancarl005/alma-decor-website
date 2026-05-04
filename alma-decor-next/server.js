@@ -39,18 +39,23 @@ const port = process.env.PORT || 3000;
 console.log(`Starting Next.js in ${process.env.NODE_ENV || 'development'} mode...`);
 
 app.prepare().then(() => {
-  createServer((req, res) => {
+  const server = createServer((req, res) => {
     const parsedUrl = parse(req.url, true);
     handle(req, res, parsedUrl);
-  }).listen(port, (err) => {
+  });
+
+  server.listen(port, (err) => {
     if (err) {
-      console.error('Failed to start server:', err);
+      console.error('CRITICAL: Failed to start server:', err);
       process.exit(1);
     }
-    console.log(`> Ready on port ${port}`);
+    console.error(`ALMA DECOR: READY ON ${typeof port === 'string' ? 'socket ' + port : 'port ' + port}`);
+    // Creăm un alt fișier ca să știm că a ajuns aici
+    fs.writeFileSync(path.join(__dirname, 'SERVER_READY.txt'), 'Serverul este READY pe portul: ' + port);
   });
 }).catch((err) => {
-  console.error('Error during app preparation:', err);
+  console.error('CRITICAL Error during app preparation:', err);
+  fs.writeFileSync(path.join(__dirname, 'SERVER_ERROR.txt'), 'Eroare la pornire: ' + err.message);
   process.exit(1);
 });
 
