@@ -4,6 +4,8 @@ const next = require('next');
 const fs = require('fs');
 const path = require('path');
 
+console.error('ALMA DECOR: SERVER.JS IS STARTING NOW!');
+
 // MANUAL ENV LOADER (Absolute Path for cPanel)
 const envPath = path.join(__dirname, '.env.production');
 console.error('DEBUG: Looking for .env at ' + envPath);
