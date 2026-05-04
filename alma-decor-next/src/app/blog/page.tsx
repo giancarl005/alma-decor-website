@@ -11,13 +11,20 @@ export const metadata: Metadata = {
 
 export const dynamic = 'force-dynamic';
 
+import { query } from '@/lib/db';
+
 async function getPosts() {
   try {
-    const res = await fetch(`${API_BASE}/api/blog.php`);
-    const data = await res.json();
-    return data.status === 'success' ? data.data : [];
+    const posts = await query<any[]>(
+      `SELECT a.*, c.name as category 
+       FROM articole_blog a
+       LEFT JOIN categorii_blog c ON a.category_blog_id = c.id
+       WHERE a.is_published = 1
+       ORDER BY a.created_at DESC`
+    );
+    return posts || [];
   } catch (err) {
-    console.error('Fetch blog posts error:', err);
+    console.error('DB blog posts error:', err);
     return [];
   }
 }

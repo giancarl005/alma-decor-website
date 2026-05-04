@@ -5,6 +5,8 @@ import ProductCard from '@/components/shop/ProductCard';
 import TestimonialsCarousel from '@/components/home/TestimonialsCarousel';
 import { API_BASE } from '@/lib/api';
 
+import { query } from '@/lib/db';
+
 export const metadata: Metadata = {
   title: 'Alma Decor - Magazin Online de Design Interior și Exterior',
   description: 'Descoperă colecția exclusivistă Alma Decor. Materiale premium, parchet, profile decorative și tapet pentru proiecte de design interior fără compromis.',
@@ -14,33 +16,24 @@ export const dynamic = 'force-dynamic';
 
 async function getFeaturedProducts() {
   try {
-    const res = await fetch(`${API_BASE}/api/produse.php?limit=4`, { 
-      headers: {
-        'Accept': 'application/json',
-      }
-    });
-    
-    if (!res.ok) {
-      console.error(`API Error: ${res.status}`);
-      return [];
-    }
-    
-    const data = await res.json();
-    return data.status === 'success' ? (data.data || []) : [];
+    const products = await query<any[]>(
+      "SELECT * FROM produse WHERE is_active = 1 AND is_featured = 1 ORDER BY sort_order ASC, created_at DESC LIMIT 4"
+    );
+    return products || [];
   } catch (error) {
-    console.error("Fetch Error:", error);
+    console.error("DB Product Error:", error);
     return [];
   }
 }
 
 async function getCategories() {
   try {
-    const res = await fetch(`${API_BASE}/api/categorii.php`);
-    if (!res.ok) return [];
-    const data = await res.json();
-    // Return exactly 4 active categories for one row
-    return data.status === 'success' ? (data.data || []).slice(0, 4) : [];
+    const categories = await query<any[]>(
+      "SELECT * FROM categorii WHERE is_active = 1 AND parent_id IS NULL ORDER BY sort_order ASC LIMIT 4"
+    );
+    return categories || [];
   } catch (error) {
+    console.error("DB Category Error:", error);
     return [];
   }
 }

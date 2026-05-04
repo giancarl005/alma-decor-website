@@ -2,69 +2,69 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import ProductDetailsClient from '@/components/shop/ProductDetailsClient';
 
-import { API_BASE, DOMAIN } from '@/lib/api';
-
-export const dynamic = 'force-dynamic';
+import { query } from '@/lib/db';
+import { DOMAIN } from '@/lib/api';
 
 async function getProduct(slug: string) {
   try {
-    const res = await fetch(`${API_BASE}/api/produse.php?slug=${slug}`, {
-    });
+    // 1. Preluăm produsul și categoria
+    const products = await query<any[]>(
+      `SELECT p.*, c.slug as category_slug, c.name as category_name 
+       FROM produse p 
+       LEFT JOIN categorii c ON p.category_id = c.id 
+       WHERE p.slug = ? AND p.is_active = 1`,
+      [slug]
+    );
     
-    if (!res.ok) return null;
+    if (!products || products.length === 0) return null;
+    const product = products[0];
+
+    // 2. Preluăm variațiile
+    product.variations = await query<any[]>(
+      "SELECT * FROM produs_variatii WHERE product_id = ? AND is_active = 1 ORDER BY sort_order ASC",
+      [product.id]
+    );
+
+    // 3. Preluăm specificațiile (campuri custom)
+    const customFields = await query<any[]>(
+      "SELECT field_name, field_value FROM produs_campuri_custom WHERE product_id = ? ORDER BY sort_order ASC",
+      [product.id]
+    );
     
-    const data = await res.json();
-    if (data.status === 'success') {
-      const product = data.data;
-      
-      // Parse specs if string
-      if (typeof product.specs === 'string') {
-        try {
-          product.specs = JSON.parse(product.specs);
-        } catch (e) {
-          product.specs = [];
-        }
-      }
-      
-      product.specs = Array.isArray(product.specs) ? product.specs : [];
-      product.variations = Array.isArray(product.variations) ? product.variations : [];
-      return product;
-    }
-    return null;
+    // Transformăm în formatul așteptat de componentă
+    product.specs = customFields.map(f => ({ 
+      label: f.field_name, 
+      value: f.field_value 
+    }));
+
+    // 4. Preluăm imaginile suplimentare
+    product.images = await query<any[]>(
+      "SELECT url FROM produs_imagini WHERE product_id = ? ORDER BY sort_order ASC",
+      [product.id]
+    );
+
+    return product;
   } catch (error) {
-    console.error('Fetch error:', error);
+    console.error('DB Product error:', error);
     return null;
+  }
+}
+
+async function getSimilarProducts(categoryId: number, currentProductId: number) {
+  try {
+    const products = await query<any[]>(
+      "SELECT * FROM produse WHERE category_id = ? AND id != ? AND is_active = 1 LIMIT 4",
+      [categoryId, currentProductId]
+    );
+    return products || [];
+  } catch (error) {
+    console.error('DB Similar products error:', error);
+    return [];
   }
 }
 
 export async function generateStaticParams() {
-  try {
-    const res = await fetch(`${API_BASE}/api/produse.php?limit=2000`);
-    if (!res.ok) return [];
-    const data = await res.json();
-    if (data.status !== 'success') return [];
-    
-    return data.data.map((product: any) => ({
-      slug: product.slug,
-    }));
-  } catch (error) {
-    console.error('Error generating static params for products:', error);
-    return [];
-  }
-}
-
-async function getSimilarProducts(categorySlug: string) {
-  if (!categorySlug) return [];
-  try {
-    const res = await fetch(`${API_BASE}/api/produse.php?categorie=${categorySlug}&limit=5`, {
-    });
-    if (!res.ok) return [];
-    const data = await res.json();
-    return data.status === 'success' ? data.data : [];
-  } catch (error) {
-    console.error('Fetch similar products error:', error);
-    return [];
-  }
+  return []; // Dezactivăm pre-generarea statică pentru a fi 100% dinamic
 }
 
 
@@ -98,8 +98,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
     notFound();
   }
 
-  const similarProducts = await getSimilarProducts(product.category_slug);
-  const filteredSimilar = similarProducts.filter((p: any) => p.id !== product.id).slice(0, 4);
+  const similarProducts = await getSimilarProducts(product.category_id, product.id);
+  const filteredSimilar = similarProducts.slice(0, 4);
 
   return (
     <ProductDetailsClient 

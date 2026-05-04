@@ -6,31 +6,24 @@ import { API_BASE, DOMAIN } from '@/lib/api';
 
 export const dynamic = 'force-dynamic';
 
+import { query } from '@/lib/db';
+
 export async function generateStaticParams() {
-  try {
-    const res = await fetch(`${API_BASE}/api/blog.php`);
-    if (!res.ok) throw new Error('API Error');
-    const data = await res.json();
-    
-    if (data.status === 'success' && data.data && data.data.length > 0) {
-      return data.data.map((post: any) => ({ slug: post.slug }));
-    }
-    
-    // Daca nu sunt articole, returnam un slug de test ca sa nu crape build-ul
-    return [{ slug: 'articol-test' }];
-  } catch (error) {
-    console.error('Build error on blog params:', error);
-    return [{ slug: 'articol-test' }];
-  }
+  return []; // Dezactivăm pre-generarea statică pentru a fi 100% dinamic
 }
 
 async function getPost(slug: string) {
   try {
-    const res = await fetch(`${API_BASE}/api/blog.php?slug=${slug}`);
-    if (!res.ok) return null;
-    const data = await res.json();
-    return data.status === 'success' ? data.data : null;
+    const posts = await query<any[]>(
+      `SELECT a.*, c.name as category 
+       FROM articole_blog a
+       LEFT JOIN categorii_blog c ON a.category_blog_id = c.id
+       WHERE a.slug = ? AND a.is_published = 1`,
+      [slug]
+    );
+    return posts && posts.length > 0 ? posts[0] : null;
   } catch (error) {
+    console.error('DB blog post error:', error);
     return null;
   }
 }
