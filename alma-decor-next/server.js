@@ -1,12 +1,24 @@
 const { createServer } = require('http');
 const { parse } = require('url');
 const next = require('next');
+const fs = require('fs');
 const path = require('path');
 
-// Force load environment variables
-const { loadEnvConfig } = require('@next/env');
-const projectDir = process.cwd();
-loadEnvConfig(projectDir);
+// MANUAL ENV LOADER (Reliable for cPanel)
+const envPath = path.join(process.cwd(), '.env.production');
+if (fs.existsSync(envPath)) {
+  const envConfig = fs.readFileSync(envPath, 'utf8');
+  envConfig.split('\n').forEach(line => {
+    const [key, ...valueParts] = line.split('=');
+    if (key && valueParts.length > 0) {
+      const value = valueParts.join('=').trim().replace(/^["']|["']$/g, '');
+      process.env[key.trim()] = value;
+    }
+  });
+  console.log('ENV: .env.production loaded manually');
+} else {
+  console.error('ENV: .env.production NOT FOUND at ' + envPath);
+}
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
