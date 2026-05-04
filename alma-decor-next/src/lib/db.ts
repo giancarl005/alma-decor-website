@@ -4,11 +4,12 @@ let pool: mysql.Pool | null = null;
 
 export const getDb = () => {
   if (!pool) {
+    console.error('DEBUG DB: Connecting with almadeco_admin_alma');
     pool = mysql.createPool({
-      host: process.env.DB_HOST || 'localhost',
-      user: process.env.DB_USER || 'root',
-      password: process.env.DB_PASS || '',
-      database: process.env.DB_NAME || 'alma_decor',
+      host: 'localhost',
+      user: 'almadeco_admin_alma',
+      password: 'GCJ@8t&Z*2XooWeh',
+      database: 'almadeco_alma_decor',
       waitForConnections: true,
       connectionLimit: 10,
       queueLimit: 0,
